@@ -62,12 +62,6 @@
   margin: 0 0.25em;
 }
 
-#debug-watch-header {
-  width: 201px;
-  float: right;
-  border-left: 1px solid gray;
-}
-
 #watchersResizeBar {
   height: 100%;
   width: 13px;
