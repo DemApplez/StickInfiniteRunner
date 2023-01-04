@@ -5,7 +5,7 @@ window.preload = function () {
 
   p5Inst._predefinedSpriteAnimations = {};
   p5Inst._pauseSpriteAnimationsByDefault = false;
-  var animationListJSON = {"orderedKeys":["platform","42dda32b-2c42-44e8-a6df-fd7758ec30d4","32bcef29-79aa-4b7d-81f9-52f67bd454a7","e41e6eda-e58e-4dbf-9a0e-c12ab4783815","34fd6d61-22da-40da-8914-f5e5e3dfe5de","83b1cdae-0762-4110-8173-b83e0647ece4","485e4ef6-2ada-42e8-9cb1-44d097cbf544","3bb6bfbe-0b8c-41e3-b8fa-16e9c737b9f6","08e5072a-3158-4c42-b29d-d65d57a47646","2c12fe0c-4377-4af9-871e-b6f922d3837e","dc7d4787-e38f-4705-b0db-7b74bb5a40a2","cadfe296-dc7f-405b-ae06-8ff777bd31e4","4f6c846c-8f58-433c-bbe0-b863e580521e","star","0434ebc9-b343-41d4-b02e-658196cdd650","ce41cd9c-b307-4539-bd9c-8a0bc6d2d080","0685c618-e5ac-42a9-8b3f-911ddc77faf5","4078f4cd-779c-4685-8ead-4c84e7c846cc","2aa8c2eb-e4c7-4933-b34a-9ee4dbafc09f","69cbf9f1-b29a-4d7e-aa56-13968a8e1129","93e43753-e296-4f9e-90a3-4ae12746f095","465879a4-4707-4464-863e-3a1345493ccb","68edc2d3-c196-43f2-95cb-1ca5b65a7e20","45f50615-ac83-4500-847d-fb66fdfe34b6","26199761-9682-4ad2-ab8c-387757ceddf4","362ed82e-3ae3-45c2-b647-8203d8cd33b7","0a1a612f-ae41-4275-8c82-b800cfae387e","66118117-2b95-43dc-add6-92910ed9e0d2","7f4410ab-6af0-417d-ba88-d8dd5d876517","cfa96954-892c-4ed3-a3d3-f7eb78330e87","b1ea5352-a968-4c43-8900-73ddc61cb2fd","6995ee4d-592f-4b09-8204-b9550fbdda56","a0cf17e8-00ef-417f-bff3-797ca4d7642c","8a45c3cf-003e-44c3-97a6-9f672444c919","12939683-f496-4fda-af6f-6e4f77fda3ea","bb1342f3-6b62-469c-9b23-1cd99a0476a6","6ea420cf-9680-4565-937b-d4b90dd4cf4f","e8681016-89d1-4f7a-9554-23bb00607a65","b14544ea-4e0b-44c0-bd55-d2eed5a5247f","de0792ef-6853-41b5-a352-780623cc4722","7f69b8cc-584f-4a57-9c68-9a825d593cb8","0a2faaea-15c7-420c-8f30-27634632be2b","2416ee0c-73c7-40ed-8e30-cc56c20f195d","a5434c3e-983c-4f5b-9b5d-464982193076","d720ddf1-068a-4fb9-b677-3b2ccbc661f5","0bdac755-d86f-4ae8-ad31-925c7c0233d9","d2e7ff23-c19b-4f08-acd5-3a8cd686a1b6","8beb2c62-cb84-4b40-9b86-ccc3f72e48b3","3305eafa-3e03-4ba6-9801-d4cb7326a95c","1bc5e245-78c1-4f68-a72b-4caf7572f491","13e402df-7006-44b3-bf8b-5cb9223f449f","46b9fce8-6a80-473d-be5c-10ece5a3a56b","600e70f2-0440-48ea-9814-0f9dd827f3a1","be959314-252d-42b5-944c-ae370909ee8a","a99ac7f3-cf9a-4bdc-815f-5fdba87d74be","a10ec294-5b2d-4f8c-84a6-6022f239a43c","c25de883-f846-4188-a613-99f6da217d59","c3f08f1f-02d1-4fa2-bc0a-6b22ef4df16a","7c48f823-c689-454b-a07d-686078cb630e","1a794790-c3c4-4068-98d4-408c7050fa5f","c70a1350-983a-4272-ab1b-794a8832ebbf","042cf864-3e85-4ab4-90b5-bd8a98a5cdc2","878c7357-298b-4a1f-bbfa-9add5d268e26","25643a1b-d3f3-4a78-be0c-e5b38c1abccf","7b3e3f85-4a50-4eb9-95e8-7875455d3f00","6f2c8a48-fb2f-458f-9b11-cf9d3352300b","ec05f808-74a4-4a64-a68e-87264d0efcc8","beab97a3-f72c-4935-9ecd-cc9269dbd19d","5930f055-43c0-4921-aefa-b62d80026dd9","82a60caf-279e-4e7f-b451-77217ce64f93","3fe9bfcd-fb36-4b0e-b293-b7c61fed4433","65570d17-06e7-4476-b418-6d632618274c","e1c61dbf-5f8d-470c-afd5-4aeb0a76056b","8703d521-f897-4490-b9b5-1b5461fcb3a3","308814dc-27e0-49ae-a33f-60d0d5f6d2f1","4f0a94c2-9310-49f3-8229-8b3a6cd38760","c79bfad7-2da4-47d7-982c-c8bf4d2c0eeb","02e5ad2c-cc6d-4328-b37f-da2ec87a8183","5564dad4-4950-43b7-a104-1dc724762aa5","1e51873b-ea76-4dd5-8d50-1a4d1aab3e60","f36405a2-ea66-4cbc-a3a6-ee6694e7bcda","6b5d96c0-d99c-4d4a-87d6-94c759d07121","b19bdce4-07b6-48f8-8e36-7d102d96ec6d","015e6dab-fb15-4bb4-b49c-44465ebe3502","10bdfe60-d640-4a9c-be55-b134cb92d543","2279bdc1-88e6-4113-a5ae-942cdfe22785","61e69a6f-3661-4045-bf7a-0935ae5c0954","927467df-d768-4ae2-bdae-1ecb13a7b952","889cf96b-d3f4-43ef-9d12-5f774a1ce518","44a92ce5-ab75-4ad4-8fbe-b1f42f512429","58b571b5-77b4-4802-8017-8d34f55a1792","93d82663-cdff-47ce-a0a2-9e04701a9b02","d9dd8b54-17ac-425e-8278-dd7259c3be29","1815e1b1-d408-46ba-9077-3afe4723b61f","e7f128aa-7cdb-441f-ba04-2bdfdeb742a2","db548238-6bff-479f-8d10-868fad48c104","cbc4b8a2-7438-4f25-b3eb-1f12e39699f4","c00d55ff-3b8c-44ff-b15e-b1fb0456aa44","64dd5238-45b5-4cac-b916-586a38a119ba","1bc088ee-5058-4267-9bb7-794cddc84691","941b9d40-c051-44c5-baf0-eaa30a5e0acb","d2ed2b38-8313-4096-840d-df1749aa2515","573459a4-dcda-4c05-b596-43496618def7","cd62a665-d18d-4e9f-b61b-f85673f67dcf","d24e8b78-61d9-4c4a-9ccc-3aace7558358","cf9f03a6-6c78-4e10-a576-0ee43e43434b","1c637e5a-983c-4bbe-80ab-f4a683cca497","9c4b283f-b0fb-4c00-8127-428c99e75992","7d095ddd-f4d3-4ab1-8486-29c186d832a8","f410964f-35a8-4666-b172-0f6eb8ace94b"],"propsByKey":{"platform":{"name":"platformoriginal","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"CEqd8W8W_oOC76o41UgHhWKW1O1S2czb","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/platform.png"},"42dda32b-2c42-44e8-a6df-fd7758ec30d4":{"name":"platform_2","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"vbSErvYAj_TmsY9KwAF3lgspL_aug8Vr","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/42dda32b-2c42-44e8-a6df-fd7758ec30d4.png"},"32bcef29-79aa-4b7d-81f9-52f67bd454a7":{"name":"platform_2_ice","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"dZTfv2MZYk7EUmsVD1abmFPrlfRGHUiW","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/32bcef29-79aa-4b7d-81f9-52f67bd454a7.png"},"e41e6eda-e58e-4dbf-9a0e-c12ab4783815":{"name":"platform_1_ice","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"w7h4fiieOjTXFRJAAjoD3u20T0ePMVuj","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/e41e6eda-e58e-4dbf-9a0e-c12ab4783815.png"},"34fd6d61-22da-40da-8914-f5e5e3dfe5de":{"name":"platform_3_ice","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"Dk22OcToUkEqujDyTboSW4hw24wSztzJ","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/34fd6d61-22da-40da-8914-f5e5e3dfe5de.png"},"83b1cdae-0762-4110-8173-b83e0647ece4":{"name":"platformoriginal_ice","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"oYk2wYpYfX0cGtJnNTBkRacWBrH5SVtF","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/83b1cdae-0762-4110-8173-b83e0647ece4.png"},"485e4ef6-2ada-42e8-9cb1-44d097cbf544":{"name":"platformicehitbox","sourceUrl":null,"frameSize":{"x":160,"y":30},"frameCount":1,"looping":true,"frameDelay":12,"version":"aLEUoaQqEDkWv4C28odM2ynOL094w_vD","loadedFromSource":true,"saved":true,"sourceSize":{"x":160,"y":30},"rootRelativePath":"assets/485e4ef6-2ada-42e8-9cb1-44d097cbf544.png"},"3bb6bfbe-0b8c-41e3-b8fa-16e9c737b9f6":{"name":"platform","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"IwFsFqcRmWNoBUpXYlOkAkVPUohU0gXm","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/3bb6bfbe-0b8c-41e3-b8fa-16e9c737b9f6.png"},"08e5072a-3158-4c42-b29d-d65d57a47646":{"name":"platform_3","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"aucqr9KOgbOMfHv4TnMLi_gav044aMEt","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/08e5072a-3158-4c42-b29d-d65d57a47646.png"},"2c12fe0c-4377-4af9-871e-b6f922d3837e":{"name":"platform_4","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"iqdkozjqV22WPygH6Yiaw.Y_bVNQXb1g","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/2c12fe0c-4377-4af9-871e-b6f922d3837e.png"},"dc7d4787-e38f-4705-b0db-7b74bb5a40a2":{"name":"platform_5","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"SX3OxKxNuztPo9kgTMVZDhiCGjmocjU5","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/dc7d4787-e38f-4705-b0db-7b74bb5a40a2.png"},"cadfe296-dc7f-405b-ae06-8ff777bd31e4":{"name":"platform_6","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"Z1lUoYY8wKKwjjtkNycnIm6JF1pfKyu1","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/cadfe296-dc7f-405b-ae06-8ff777bd31e4.png"},"4f6c846c-8f58-433c-bbe0-b863e580521e":{"name":"platform_7","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"iaju1s8eDOmgbcNQ_.ndEeB8EVA0hsPO","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/4f6c846c-8f58-433c-bbe0-b863e580521e.png"},"star":{"name":"coin_spin","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":6,"looping":true,"frameDelay":5,"version":"dryH_Frx2P9JWfPROjNOvdMCtgc9mAkw","loadedFromSource":true,"saved":true,"sourceSize":{"x":120,"y":180},"rootRelativePath":"assets/star.png"},"0434ebc9-b343-41d4-b02e-658196cdd650":{"name":"coin_still","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":1,"looping":true,"frameDelay":12,"version":"KuwgYivQjRLnvq4Sw6mBCf.myl0FxueA","loadedFromSource":true,"saved":true,"sourceSize":{"x":60,"y":60},"rootRelativePath":"assets/0434ebc9-b343-41d4-b02e-658196cdd650.png"},"ce41cd9c-b307-4539-bd9c-8a0bc6d2d080":{"name":"coin_big","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":6,"looping":true,"frameDelay":4,"version":"2QK9_ccShj3th.FrjTzs4x2ZdltQHmds","loadedFromSource":true,"saved":true,"sourceSize":{"x":120,"y":180},"rootRelativePath":"assets/ce41cd9c-b307-4539-bd9c-8a0bc6d2d080.png"},"0685c618-e5ac-42a9-8b3f-911ddc77faf5":{"name":"coin_2","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":10,"looping":true,"frameDelay":3,"version":"om62Cjrp6UiyLCZGohXhJ5QuaThw03mF","loadedFromSource":true,"saved":true,"sourceSize":{"x":180,"y":240},"rootRelativePath":"assets/0685c618-e5ac-42a9-8b3f-911ddc77faf5.png"},"4078f4cd-779c-4685-8ead-4c84e7c846cc":{"name":"coin_2_still","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":1,"looping":true,"frameDelay":12,"version":"ey551BUduGN7_84iKLoRUzt6qn3JaaoF","loadedFromSource":true,"saved":true,"sourceSize":{"x":60,"y":60},"rootRelativePath":"assets/4078f4cd-779c-4685-8ead-4c84e7c846cc.png"},"2aa8c2eb-e4c7-4933-b34a-9ee4dbafc09f":{"name":"coin_2_big","sourceUrl":null,"frameSize":{"x":480,"y":480},"frameCount":10,"looping":true,"frameDelay":2,"version":"deDfsI5m4AfAvIVYYByN_YAx32CcSrL3","loadedFromSource":true,"saved":true,"sourceSize":{"x":1440,"y":1920},"rootRelativePath":"assets/2aa8c2eb-e4c7-4933-b34a-9ee4dbafc09f.png"},"69cbf9f1-b29a-4d7e-aa56-13968a8e1129":{"name":"stick_still","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"BHDV.iyvnuDRzXfsoq9YX37pC1v5pLbn","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/69cbf9f1-b29a-4d7e-aa56-13968a8e1129.png"},"93e43753-e296-4f9e-90a3-4ae12746f095":{"name":"stick_still_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"QJBMDdzOCb7WHx0EG0hv4baOHi48nLNg","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/93e43753-e296-4f9e-90a3-4ae12746f095.png"},"465879a4-4707-4464-863e-3a1345493ccb":{"name":"stick_run_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"v7dgxpTTxmJo4V2AqIqhgtI_1Nnxxm_r","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/465879a4-4707-4464-863e-3a1345493ccb.png"},"68edc2d3-c196-43f2-95cb-1ca5b65a7e20":{"name":"stick_run_re_copy_1","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":5,"looping":true,"frameDelay":12,"version":"Z5c_X5VKrgdNKp2TX5_KMsmUvTXccD0Y","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":300},"rootRelativePath":"assets/68edc2d3-c196-43f2-95cb-1ca5b65a7e20.png"},"45f50615-ac83-4500-847d-fb66fdfe34b6":{"name":"stick_up_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"CvdgZVoCWal5RX68uCOWtMv2HPOUqCJ5","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/45f50615-ac83-4500-847d-fb66fdfe34b6.png"},"26199761-9682-4ad2-ab8c-387757ceddf4":{"name":"stick_up","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"qhpKohLY3CYg2swe2ZyJWvlygmQGaqI7","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/26199761-9682-4ad2-ab8c-387757ceddf4.png"},"362ed82e-3ae3-45c2-b647-8203d8cd33b7":{"name":"stick_duck","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"9.xiSzOzZ_Cg8jDp36_.vQN4qGsQ9Pv3","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/362ed82e-3ae3-45c2-b647-8203d8cd33b7.png"},"0a1a612f-ae41-4275-8c82-b800cfae387e":{"name":"stick_duck_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"80LRsE7jq_cTbdbfv9dqNQsEq7k8_gnY","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/0a1a612f-ae41-4275-8c82-b800cfae387e.png"},"66118117-2b95-43dc-add6-92910ed9e0d2":{"name":"stick_duck_re2","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"kgSRNN.aOZSjauXqitRcpWT3H49UlrJy","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/66118117-2b95-43dc-add6-92910ed9e0d2.png"},"7f4410ab-6af0-417d-ba88-d8dd5d876517":{"name":"stick_game_over","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"SpeuH8HSSDgdPBUhimStEc2cO9KesJGG","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/7f4410ab-6af0-417d-ba88-d8dd5d876517.png"},"cfa96954-892c-4ed3-a3d3-f7eb78330e87":{"name":"stick_jump","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"5fNbsAf0Grv9S3mAyrkOecPcRzUe.xIR","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/cfa96954-892c-4ed3-a3d3-f7eb78330e87.png"},"b1ea5352-a968-4c43-8900-73ddc61cb2fd":{"name":"stick_jump_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"GRDqjbYMDZUn2.q3KIBHa4qTxfhemqY6","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/b1ea5352-a968-4c43-8900-73ddc61cb2fd.png"},"6995ee4d-592f-4b09-8204-b9550fbdda56":{"name":"stick_jump_re2","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"qnTw4Oy9gZDFBRuHPF08pTwVXlXzhgWU","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/6995ee4d-592f-4b09-8204-b9550fbdda56.png"},"a0cf17e8-00ef-417f-bff3-797ca4d7642c":{"name":"stick_jump2","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"OMXdUI6JVIBQ3jQDNtUxbWji8boSTj6t","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/a0cf17e8-00ef-417f-bff3-797ca4d7642c.png"},"8a45c3cf-003e-44c3-97a6-9f672444c919":{"name":"stick_run","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":12,"looping":true,"frameDelay":4,"version":"L.Tih6mrjW8csr4xQ7gWX699MUKr10xI","loadedFromSource":true,"saved":true,"sourceSize":{"x":600,"y":800},"rootRelativePath":"assets/8a45c3cf-003e-44c3-97a6-9f672444c919.png"},"12939683-f496-4fda-af6f-6e4f77fda3ea":{"name":"stick_run3","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":12,"looping":true,"frameDelay":3,"version":"jRFec94INiE9xMNuP7QUfKvaGaKBUYEm","loadedFromSource":true,"saved":true,"sourceSize":{"x":600,"y":800},"rootRelativePath":"assets/12939683-f496-4fda-af6f-6e4f77fda3ea.png"},"bb1342f3-6b62-469c-9b23-1cd99a0476a6":{"name":"stick_run4","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":12,"looping":true,"frameDelay":3,"version":"1xet3k1iM3CBaN48zncTSkWIj1lQSDrF","loadedFromSource":true,"saved":true,"sourceSize":{"x":600,"y":800},"rootRelativePath":"assets/bb1342f3-6b62-469c-9b23-1cd99a0476a6.png"},"6ea420cf-9680-4565-937b-d4b90dd4cf4f":{"name":"stick_run2","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":12,"looping":true,"frameDelay":5,"version":"aHLdMQWKUpiGnWS7_u5qu.vxgu2zVvJI","loadedFromSource":true,"saved":true,"sourceSize":{"x":600,"y":800},"rootRelativePath":"assets/6ea420cf-9680-4565-937b-d4b90dd4cf4f.png"},"e8681016-89d1-4f7a-9554-23bb00607a65":{"name":"stick_look","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":21,"looping":true,"frameDelay":3,"version":"92JyPpV6tUlLYD77yaBi0.G4MA4A8m.T","loadedFromSource":true,"saved":true,"sourceSize":{"x":500,"y":500},"rootRelativePath":"assets/e8681016-89d1-4f7a-9554-23bb00607a65.png"},"b14544ea-4e0b-44c0-bd55-d2eed5a5247f":{"name":"stick_look_still","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"XBOHc9xgN9XN4TihIxeV8fIG0OUkoiH9","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/b14544ea-4e0b-44c0-bd55-d2eed5a5247f.png"},"de0792ef-6853-41b5-a352-780623cc4722":{"name":"stick_hurt","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"ndKM_UO0rxzikgUBAt28R29HOb3xBXFi","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/de0792ef-6853-41b5-a352-780623cc4722.png"},"7f69b8cc-584f-4a57-9c68-9a825d593cb8":{"name":"cloud_1","sourceUrl":null,"frameSize":{"x":300,"y":300},"frameCount":1,"looping":true,"frameDelay":12,"version":"TTJWtqMeWgrqN_qK1huqayMbx0FSfkeY","loadedFromSource":true,"saved":true,"sourceSize":{"x":300,"y":300},"rootRelativePath":"assets/7f69b8cc-584f-4a57-9c68-9a825d593cb8.png"},"0a2faaea-15c7-420c-8f30-27634632be2b":{"name":"Stick_Gameover","sourceUrl":null,"frameSize":{"x":236,"y":104},"frameCount":15,"looping":true,"frameDelay":3,"version":"1s1Va3kfQ4RPVKxczQ.nPsnXgmgyo5eE","loadedFromSource":true,"saved":true,"sourceSize":{"x":708,"y":520},"rootRelativePath":"assets/0a2faaea-15c7-420c-8f30-27634632be2b.png"},"2416ee0c-73c7-40ed-8e30-cc56c20f195d":{"name":"restart_text","sourceUrl":null,"frameSize":{"x":132,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"NppdTSQEqXYuA.he0XQjJOHO42ZG4CSf","loadedFromSource":true,"saved":true,"sourceSize":{"x":132,"y":22},"rootRelativePath":"assets/2416ee0c-73c7-40ed-8e30-cc56c20f195d.png"},"a5434c3e-983c-4f5b-9b5d-464982193076":{"name":"store_text","sourceUrl":null,"frameSize":{"x":90,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"11Os7DSEoLdR0LiJoeifmSvf5LiyRP.Z","loadedFromSource":true,"saved":true,"sourceSize":{"x":90,"y":22},"rootRelativePath":"assets/a5434c3e-983c-4f5b-9b5d-464982193076.png"},"d720ddf1-068a-4fb9-b677-3b2ccbc661f5":{"name":"control_text","sourceUrl":null,"frameSize":{"x":148,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"9vjZ3ntU_KCCHd87SE_WecX3gsfqup.j","loadedFromSource":true,"saved":true,"sourceSize":{"x":148,"y":22},"rootRelativePath":"assets/d720ddf1-068a-4fb9-b677-3b2ccbc661f5.png"},"0bdac755-d86f-4ae8-ad31-925c7c0233d9":{"name":"start_text","sourceUrl":null,"frameSize":{"x":94,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"3MhQPO16875L2ebu9bnoZ08dXFRabXMJ","loadedFromSource":true,"saved":true,"sourceSize":{"x":94,"y":22},"rootRelativePath":"assets/0bdac755-d86f-4ae8-ad31-925c7c0233d9.png"},"d2e7ff23-c19b-4f08-acd5-3a8cd686a1b6":{"name":"pause_title_text","sourceUrl":null,"frameSize":{"x":160,"y":66},"frameCount":1,"looping":true,"frameDelay":12,"version":"u34awvwbViWxeJJ36U9CdrIdAUUDlaOB","loadedFromSource":true,"saved":true,"sourceSize":{"x":160,"y":66},"rootRelativePath":"assets/d2e7ff23-c19b-4f08-acd5-3a8cd686a1b6.png"},"8beb2c62-cb84-4b40-9b86-ccc3f72e48b3":{"name":"back_text","sourceUrl":null,"frameSize":{"x":70,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"SPh75OAw2qG0e49FOLkLFu55gR1K1gAG","loadedFromSource":true,"saved":true,"sourceSize":{"x":70,"y":22},"rootRelativePath":"assets/8beb2c62-cb84-4b40-9b86-ccc3f72e48b3.png"},"3305eafa-3e03-4ba6-9801-d4cb7326a95c":{"name":"textGameOver_1","sourceUrl":null,"frameSize":{"x":320,"y":44},"frameCount":1,"looping":true,"frameDelay":12,"version":"VDbAp15aPs7GQI_pxDJ2DZrAZPyhvC_Q","loadedFromSource":true,"saved":true,"sourceSize":{"x":320,"y":44},"rootRelativePath":"assets/3305eafa-3e03-4ba6-9801-d4cb7326a95c.png"},"1bc5e245-78c1-4f68-a72b-4caf7572f491":{"name":"menu_text","sourceUrl":null,"frameSize":{"x":78,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"LK88GQSrzzr2KUk.A9w..liqT2Qay_kl","loadedFromSource":true,"saved":true,"sourceSize":{"x":78,"y":22},"rootRelativePath":"assets/1bc5e245-78c1-4f68-a72b-4caf7572f491.png"},"13e402df-7006-44b3-bf8b-5cb9223f449f":{"name":"title_text","sourceUrl":null,"frameSize":{"x":198,"y":50},"frameCount":1,"looping":true,"frameDelay":12,"version":"VI3k9Y3XZnFBawYfK289f5GrGDMP1leS","loadedFromSource":true,"saved":true,"sourceSize":{"x":198,"y":50},"rootRelativePath":"assets/13e402df-7006-44b3-bf8b-5cb9223f449f.png"},"46b9fce8-6a80-473d-be5c-10ece5a3a56b":{"name":"title_character","sourceUrl":null,"frameSize":{"x":300,"y":300},"frameCount":1,"looping":true,"frameDelay":12,"version":"rCMCOvv4noYrR3nMXreU1Ri_7wttbEyc","loadedFromSource":true,"saved":true,"sourceSize":{"x":300,"y":300},"rootRelativePath":"assets/46b9fce8-6a80-473d-be5c-10ece5a3a56b.png"},"600e70f2-0440-48ea-9814-0f9dd827f3a1":{"name":"title_picture_ob","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"9gQvvlqEYPIggNZrZja4AlncCxVQxAEt","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/600e70f2-0440-48ea-9814-0f9dd827f3a1.png"},"be959314-252d-42b5-944c-ae370909ee8a":{"name":"store_item_1_notbought","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"AHdzpOmHxseq3HvNP4RZD7u9.qXYg0bd","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/be959314-252d-42b5-944c-ae370909ee8a.png"},"a99ac7f3-cf9a-4bdc-815f-5fdba87d74be":{"name":"store_item_2_notbought","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"9UQhYvZnQxVTuoPjZSTDsT.QqEvN8ttF","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/a99ac7f3-cf9a-4bdc-815f-5fdba87d74be.png"},"a10ec294-5b2d-4f8c-84a6-6022f239a43c":{"name":"store_item_1_bought","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"HssNFQDLIPd8.nmHobc5zHEQLey1p3OW","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/a10ec294-5b2d-4f8c-84a6-6022f239a43c.png"},"c25de883-f846-4188-a613-99f6da217d59":{"name":"enemy_still","sourceUrl":null,"frameSize":{"x":56,"y":60},"frameCount":1,"looping":true,"frameDelay":12,"version":"VPZfeDIMym5PvUIzc70ZDZZKW93CtKbp","loadedFromSource":true,"saved":true,"sourceSize":{"x":56,"y":60},"rootRelativePath":"assets/c25de883-f846-4188-a613-99f6da217d59.png"},"c3f08f1f-02d1-4fa2-bc0a-6b22ef4df16a":{"name":"enemy_jump","sourceUrl":null,"frameSize":{"x":56,"y":60},"frameCount":5,"looping":true,"frameDelay":10,"version":"XMCiRfy2qED0kgMyZfMo8dQCH.G5ZHdK","loadedFromSource":true,"saved":true,"sourceSize":{"x":112,"y":180},"rootRelativePath":"assets/c3f08f1f-02d1-4fa2-bc0a-6b22ef4df16a.png"},"7c48f823-c689-454b-a07d-686078cb630e":{"name":"control_layout","sourceUrl":null,"frameSize":{"x":400,"y":400},"frameCount":1,"looping":true,"frameDelay":12,"version":"D7S.L7D4UxS.ckrphPEGaQVtp9mrHbyy","loadedFromSource":true,"saved":true,"sourceSize":{"x":400,"y":400},"rootRelativePath":"assets/7c48f823-c689-454b-a07d-686078cb630e.png"},"1a794790-c3c4-4068-98d4-408c7050fa5f":{"name":"BackgroundAnimationold","sourceUrl":null,"frameSize":{"x":300,"y":300},"frameCount":18,"looping":true,"frameDelay":4,"version":"Oj8B8fZs6ra.nSiDPStHFZc0w6ILLJjs","loadedFromSource":true,"saved":true,"sourceSize":{"x":1200,"y":1500},"rootRelativePath":"assets/1a794790-c3c4-4068-98d4-408c7050fa5f.png"},"c70a1350-983a-4272-ab1b-794a8832ebbf":{"name":"BackgroundAnimation","sourceUrl":null,"frameSize":{"x":300,"y":300},"frameCount":18,"looping":true,"frameDelay":4,"version":"fpR9Jgwxn9Q6plCq7eK9yCCSCFAVY29a","loadedFromSource":true,"saved":true,"sourceSize":{"x":1200,"y":1500},"rootRelativePath":"assets/c70a1350-983a-4272-ab1b-794a8832ebbf.png"},"042cf864-3e85-4ab4-90b5-bd8a98a5cdc2":{"name":"BackgroundAnimation_copy_1","sourceUrl":null,"frameSize":{"x":600,"y":600},"frameCount":18,"looping":true,"frameDelay":4,"version":"Kp86ZdDrqI7vmaI0lZZbf6TE3R_.7CVI","loadedFromSource":true,"saved":true,"sourceSize":{"x":2400,"y":3000},"rootRelativePath":"assets/042cf864-3e85-4ab4-90b5-bd8a98a5cdc2.png"},"878c7357-298b-4a1f-bbfa-9add5d268e26":{"name":"BackgroundAnimation_sm","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":18,"looping":true,"frameDelay":4,"version":"bmdKH_hyWAioYRkEgFuPnlmMrHDf.SN6","loadedFromSource":true,"saved":true,"sourceSize":{"x":800,"y":1000},"rootRelativePath":"assets/878c7357-298b-4a1f-bbfa-9add5d268e26.png"},"25643a1b-d3f3-4a78-be0c-e5b38c1abccf":{"name":"Sun","sourceUrl":null,"frameSize":{"x":74,"y":74},"frameCount":1,"looping":true,"frameDelay":12,"version":"uxZo0aQVKHflkRLNEK.0MFHEFQCTsNrL","loadedFromSource":true,"saved":true,"sourceSize":{"x":74,"y":74},"rootRelativePath":"assets/25643a1b-d3f3-4a78-be0c-e5b38c1abccf.png"},"7b3e3f85-4a50-4eb9-95e8-7875455d3f00":{"name":"Sunset","sourceUrl":null,"frameSize":{"x":74,"y":74},"frameCount":1,"looping":true,"frameDelay":12,"version":"ZP0TjHNFLrI2mKfP9wouXRe9ZLtBizUH","loadedFromSource":true,"saved":true,"sourceSize":{"x":74,"y":74},"rootRelativePath":"assets/7b3e3f85-4a50-4eb9-95e8-7875455d3f00.png"},"6f2c8a48-fb2f-458f-9b11-cf9d3352300b":{"name":"moon","sourceUrl":null,"frameSize":{"x":74,"y":74},"frameCount":1,"looping":true,"frameDelay":12,"version":"C.7ICb0jtGIwA284uiL6qDYO0LomguSY","loadedFromSource":true,"saved":true,"sourceSize":{"x":74,"y":74},"rootRelativePath":"assets/6f2c8a48-fb2f-458f-9b11-cf9d3352300b.png"},"ec05f808-74a4-4a64-a68e-87264d0efcc8":{"name":"onceinabluemoon","sourceUrl":null,"frameSize":{"x":74,"y":74},"frameCount":1,"looping":true,"frameDelay":12,"version":"tIIqY2IRsR3HJrSkvZmoTiM9qGk0RMI2","loadedFromSource":true,"saved":true,"sourceSize":{"x":74,"y":74},"rootRelativePath":"assets/ec05f808-74a4-4a64-a68e-87264d0efcc8.png"},"beab97a3-f72c-4935-9ecd-cc9269dbd19d":{"name":"turn_test","sourceUrl":null,"frameSize":{"x":107,"y":93},"frameCount":1,"looping":true,"frameDelay":12,"version":"rAnwQIhsGlkh1Awn3R.ksyy3px0vHPve","loadedFromSource":true,"saved":true,"sourceSize":{"x":107,"y":93},"rootRelativePath":"assets/beab97a3-f72c-4935-9ecd-cc9269dbd19d.png"},"5930f055-43c0-4921-aefa-b62d80026dd9":{"name":"Achievement1","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"FlJy2Rfp8jyYXYHrEX5tzAbdJUkNlhQb","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/5930f055-43c0-4921-aefa-b62d80026dd9.png"},"82a60caf-279e-4e7f-b451-77217ce64f93":{"name":"Achievement1_complete","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"jYOoD9WF48E2yHBoKn7vZ0SiefsqPXn7","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/82a60caf-279e-4e7f-b451-77217ce64f93.png"},"3fe9bfcd-fb36-4b0e-b293-b7c61fed4433":{"name":"Achievement2","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"U8ZgsQ.cEZqRhf_CrpbMWGcVIDvf4kUC","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/3fe9bfcd-fb36-4b0e-b293-b7c61fed4433.png"},"65570d17-06e7-4476-b418-6d632618274c":{"name":"Achievement2_complete","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"foaz5OFtKUtNAoxZvlaJOARSh_LgCp94","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/65570d17-06e7-4476-b418-6d632618274c.png"},"e1c61dbf-5f8d-470c-afd5-4aeb0a76056b":{"name":"Achievement3","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"Y56UKaFO.v0ue99v.sF9cUF5H1.5wXE3","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/e1c61dbf-5f8d-470c-afd5-4aeb0a76056b.png"},"8703d521-f897-4490-b9b5-1b5461fcb3a3":{"name":"Achievement3_complete","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"S0HsFzlgRJ3wymcMGTA2j.8Bhzz6bNtW","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/8703d521-f897-4490-b9b5-1b5461fcb3a3.png"},"308814dc-27e0-49ae-a33f-60d0d5f6d2f1":{"name":"Achievement4","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":6,"looping":true,"frameDelay":3,"version":"F.yJHeuUBG4aNSHc1a38mZr8giTkZA6O","loadedFromSource":true,"saved":true,"sourceSize":{"x":204,"y":270},"rootRelativePath":"assets/308814dc-27e0-49ae-a33f-60d0d5f6d2f1.png"},"4f0a94c2-9310-49f3-8229-8b3a6cd38760":{"name":"backgroundtest","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":52,"looping":true,"frameDelay":1,"version":"vKwd.ndPQUDtyojPuQ6VjpJkbo1_QWtG","loadedFromSource":true,"saved":true,"sourceSize":{"x":700,"y":800},"rootRelativePath":"assets/4f0a94c2-9310-49f3-8229-8b3a6cd38760.png"},"c79bfad7-2da4-47d7-982c-c8bf4d2c0eeb":{"name":"background_achievements","sourceUrl":null,"frameSize":{"x":400,"y":400},"frameCount":52,"looping":true,"frameDelay":1,"version":"I3eB8pQnRXwKbtJEh9VL_Rv8hkVOPKHw","loadedFromSource":true,"saved":true,"sourceSize":{"x":2800,"y":3200},"rootRelativePath":"assets/c79bfad7-2da4-47d7-982c-c8bf4d2c0eeb.png"},"02e5ad2c-cc6d-4328-b37f-da2ec87a8183":{"name":"gridtest","sourceUrl":null,"frameSize":{"x":800,"y":800},"frameCount":1,"looping":true,"frameDelay":1,"version":"VugZFj7N1AYBoRwtgLjMwAFPEZSU6_T2","loadedFromSource":true,"saved":true,"sourceSize":{"x":800,"y":800},"rootRelativePath":"assets/02e5ad2c-cc6d-4328-b37f-da2ec87a8183.png"},"5564dad4-4950-43b7-a104-1dc724762aa5":{"name":"gridtest_copy_1","sourceUrl":null,"frameSize":{"x":800,"y":800},"frameCount":2,"looping":true,"frameDelay":1,"version":"vgHE8qxOWRMJqDc.faEf9xlNufmpA33y","loadedFromSource":true,"saved":true,"sourceSize":{"x":800,"y":1600},"rootRelativePath":"assets/5564dad4-4950-43b7-a104-1dc724762aa5.png"},"1e51873b-ea76-4dd5-8d50-1a4d1aab3e60":{"name":"water","sourceUrl":null,"frameSize":{"x":800,"y":400},"frameCount":1,"looping":true,"frameDelay":12,"version":"PLmtVxZ0Wb.25E3shE1tMTUamc_j9KOf","loadedFromSource":true,"saved":true,"sourceSize":{"x":800,"y":400},"rootRelativePath":"assets/1e51873b-ea76-4dd5-8d50-1a4d1aab3e60.png"},"f36405a2-ea66-4cbc-a3a6-ee6694e7bcda":{"name":"logo_startup_current","sourceUrl":null,"frameSize":{"x":100,"y":130},"frameCount":1,"looping":true,"frameDelay":12,"version":"43WxFJVaT27sKI.fH407jymgrlcgZme2","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":130},"rootRelativePath":"assets/f36405a2-ea66-4cbc-a3a6-ee6694e7bcda.png"},"6b5d96c0-d99c-4d4a-87d6-94c759d07121":{"name":"logo_startup","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"io9DK3kzo5oyK3b0sENmBRwV6RaEEVbw","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/6b5d96c0-d99c-4d4a-87d6-94c759d07121.png"},"b19bdce4-07b6-48f8-8e36-7d102d96ec6d":{"name":"runs_on_pe2","sourceUrl":null,"frameSize":{"x":200,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"2RStkIwU0rG77m3mnDIDY7IJ2VZ4HNmQ","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":100},"rootRelativePath":"assets/b19bdce4-07b6-48f8-8e36-7d102d96ec6d.png"},"015e6dab-fb15-4bb4-b49c-44465ebe3502":{"name":"save_icon","sourceUrl":null,"frameSize":{"x":237,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"s3IQXL8_aX7REQpDivYE3FTS9q89hzbt","loadedFromSource":true,"saved":true,"sourceSize":{"x":237,"y":100},"rootRelativePath":"assets/015e6dab-fb15-4bb4-b49c-44465ebe3502.png"},"10bdfe60-d640-4a9c-be55-b134cb92d543":{"name":"save_icon_cloud","sourceUrl":null,"frameSize":{"x":237,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"0lkgvBmnf1lqbVbImFPL4dkPR.h7zHeF","loadedFromSource":true,"saved":true,"sourceSize":{"x":237,"y":100},"rootRelativePath":"assets/10bdfe60-d640-4a9c-be55-b134cb92d543.png"},"2279bdc1-88e6-4113-a5ae-942cdfe22785":{"name":"load_icon_cloud","sourceUrl":null,"frameSize":{"x":237,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"DXxppoQxRl0jR0mrx6bOCifZgJdiH5Bc","loadedFromSource":true,"saved":true,"sourceSize":{"x":237,"y":100},"rootRelativePath":"assets/2279bdc1-88e6-4113-a5ae-942cdfe22785.png"},"61e69a6f-3661-4045-bf7a-0935ae5c0954":{"name":"load_icon","sourceUrl":null,"frameSize":{"x":237,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"aqMPOcCOTRA5hgwCzGf.QhfyadOTDkJE","loadedFromSource":true,"saved":true,"sourceSize":{"x":237,"y":100},"rootRelativePath":"assets/61e69a6f-3661-4045-bf7a-0935ae5c0954.png"},"927467df-d768-4ae2-bdae-1ecb13a7b952":{"name":"fadeaway_test","sourceUrl":null,"frameSize":{"x":400,"y":800},"frameCount":1,"looping":true,"frameDelay":12,"version":"dCQFWBYmbtkkH8zxG8v6K9pIJtRK6Os2","loadedFromSource":true,"saved":true,"sourceSize":{"x":400,"y":800},"rootRelativePath":"assets/927467df-d768-4ae2-bdae-1ecb13a7b952.png"},"889cf96b-d3f4-43ef-9d12-5f774a1ce518":{"name":"stick_drown","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":4,"looping":true,"frameDelay":5,"version":"PYHV8fKNoz3tD7_Rm8jsB.L.pR9Fkuak","loadedFromSource":true,"saved":true,"sourceSize":{"x":400,"y":400},"rootRelativePath":"assets/889cf96b-d3f4-43ef-9d12-5f774a1ce518.png"},"44a92ce5-ab75-4ad4-8fbe-b1f42f512429":{"name":"options_text","sourceUrl":null,"frameSize":{"x":130,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"1qCRX1lb4sKx9o8RcyrPT8gS0CXdyjjU","loadedFromSource":true,"saved":true,"sourceSize":{"x":130,"y":22},"rootRelativePath":"assets/44a92ce5-ab75-4ad4-8fbe-b1f42f512429.png"},"58b571b5-77b4-4802-8017-8d34f55a1792":{"name":"switch_off","sourceUrl":null,"frameSize":{"x":122,"y":76},"frameCount":1,"looping":true,"frameDelay":12,"version":"BRt5in0S.3z.j.Xk1gUNN2VqmqsMdtHK","loadedFromSource":true,"saved":true,"sourceSize":{"x":122,"y":76},"rootRelativePath":"assets/58b571b5-77b4-4802-8017-8d34f55a1792.png"},"93d82663-cdff-47ce-a0a2-9e04701a9b02":{"name":"switch_on","sourceUrl":null,"frameSize":{"x":122,"y":76},"frameCount":1,"looping":true,"frameDelay":12,"version":"OPpN3aCo5wkxJM_SMXzc4VnexgB0JYs_","loadedFromSource":true,"saved":true,"sourceSize":{"x":122,"y":76},"rootRelativePath":"assets/93d82663-cdff-47ce-a0a2-9e04701a9b02.png"},"d9dd8b54-17ac-425e-8278-dd7259c3be29":{"name":"loadonly_text","sourceUrl":null,"frameSize":{"x":70,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"8hZtrirdIdhM9N4W.vKQqPGN4fBGcUCr","loadedFromSource":true,"saved":true,"sourceSize":{"x":70,"y":22},"rootRelativePath":"assets/d9dd8b54-17ac-425e-8278-dd7259c3be29.png"},"1815e1b1-d408-46ba-9077-3afe4723b61f":{"name":"save_text","sourceUrl":null,"frameSize":{"x":178,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"e874bZ4Ie20gHb4wXYAtCRsE2CyIiXEj","loadedFromSource":true,"saved":true,"sourceSize":{"x":178,"y":22},"rootRelativePath":"assets/1815e1b1-d408-46ba-9077-3afe4723b61f.png"},"e7f128aa-7cdb-441f-ba04-2bdfdeb742a2":{"name":"saveonly_text","sourceUrl":null,"frameSize":{"x":76,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"t44TDUH52dhDaYlObQINHqYgFsLB8L9z","loadedFromSource":true,"saved":true,"sourceSize":{"x":76,"y":22},"rootRelativePath":"assets/e7f128aa-7cdb-441f-ba04-2bdfdeb742a2.png"},"db548238-6bff-479f-8d10-868fad48c104":{"name":"cloudsave_text","sourceUrl":null,"frameSize":{"x":170,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"_zyAZrFdsNWe52.AwcU1xJaGJww554Rv","loadedFromSource":true,"saved":true,"sourceSize":{"x":170,"y":22},"rootRelativePath":"assets/db548238-6bff-479f-8d10-868fad48c104.png"},"cbc4b8a2-7438-4f25-b3eb-1f12e39699f4":{"name":"cloudload_text","sourceUrl":null,"frameSize":{"x":164,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"GiOEbrEre4UsHPGSrTf.dMioTQY.hTSr","loadedFromSource":true,"saved":true,"sourceSize":{"x":164,"y":22},"rootRelativePath":"assets/cbc4b8a2-7438-4f25-b3eb-1f12e39699f4.png"},"c00d55ff-3b8c-44ff-b15e-b1fb0456aa44":{"name":"achievement1_text","sourceUrl":null,"frameSize":{"x":274,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"mFHcmqFSj1XbQd87iFMv_ypIkixWYKIi","loadedFromSource":true,"saved":true,"sourceSize":{"x":274,"y":22},"rootRelativePath":"assets/c00d55ff-3b8c-44ff-b15e-b1fb0456aa44.png"},"64dd5238-45b5-4cac-b916-586a38a119ba":{"name":"achievement_text","sourceUrl":null,"frameSize":{"x":236,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"PxnAuGndYQpdGDVCimWEt66orf1_TztM","loadedFromSource":true,"saved":true,"sourceSize":{"x":236,"y":22},"rootRelativePath":"assets/64dd5238-45b5-4cac-b916-586a38a119ba.png"},"1bc088ee-5058-4267-9bb7-794cddc84691":{"name":"gear","sourceUrl":"assets/v3/animations/R0Z_I10WAH2btnkFtaSIW5h5HGGoGzKX1ghda9KBWhE/1bc088ee-5058-4267-9bb7-794cddc84691.png","frameSize":{"x":58,"y":58},"frameCount":1,"looping":true,"frameDelay":4,"version":"0oyWVfWbHrYCBnCuhqqjHssl.ioxuKiF","loadedFromSource":true,"saved":true,"sourceSize":{"x":58,"y":58},"rootRelativePath":"assets/v3/animations/R0Z_I10WAH2btnkFtaSIW5h5HGGoGzKX1ghda9KBWhE/1bc088ee-5058-4267-9bb7-794cddc84691.png"},"941b9d40-c051-44c5-baf0-eaa30a5e0acb":{"name":"leave_text","sourceUrl":null,"frameSize":{"x":92,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"tlvNrEg1Cie4ISH52yfPwxKxBQWdWR3C","loadedFromSource":true,"saved":true,"sourceSize":{"x":92,"y":22},"rootRelativePath":"assets/941b9d40-c051-44c5-baf0-eaa30a5e0acb.png"},"d2ed2b38-8313-4096-840d-df1749aa2515":{"name":"danger","sourceUrl":null,"frameSize":{"x":20,"y":92},"frameCount":12,"looping":true,"frameDelay":2,"version":"BVhVh3OGuOpJdcZNl4EMN5XuAQCnU735","loadedFromSource":true,"saved":true,"sourceSize":{"x":140,"y":184},"rootRelativePath":"assets/d2ed2b38-8313-4096-840d-df1749aa2515.png"},"573459a4-dcda-4c05-b596-43496618def7":{"name":"danger_still","sourceUrl":null,"frameSize":{"x":20,"y":68},"frameCount":1,"looping":true,"frameDelay":12,"version":"OhcY9Kt7Cz2RpJW6T8mdR8HRluH1Fq..","loadedFromSource":true,"saved":true,"sourceSize":{"x":20,"y":68},"rootRelativePath":"assets/573459a4-dcda-4c05-b596-43496618def7.png"},"cd62a665-d18d-4e9f-b61b-f85673f67dcf":{"name":"axe","sourceUrl":null,"frameSize":{"x":62,"y":56},"frameCount":1,"looping":true,"frameDelay":12,"version":"drF56FJc11dzFw9pqP6WZDMby5fF79SG","categories":["tools"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":62,"y":56},"rootRelativePath":"assets/cd62a665-d18d-4e9f-b61b-f85673f67dcf.png"},"d24e8b78-61d9-4c4a-9ccc-3aace7558358":{"name":"axe_copy1","sourceUrl":null,"frameSize":{"x":55,"y":48},"frameCount":1,"looping":true,"frameDelay":12,"version":"IcZ7wokt_9VXVs.wO5mnNzK8Ld5aHyBU","categories":["tools"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":55,"y":48},"rootRelativePath":"assets/d24e8b78-61d9-4c4a-9ccc-3aace7558358.png"},"cf9f03a6-6c78-4e10-a576-0ee43e43434b":{"name":"arrow_right","sourceUrl":null,"frameSize":{"x":23,"y":24},"frameCount":12,"looping":true,"frameDelay":3,"version":"jQC52NTBIoSMpuNASH5WOFLpksZ_CsnQ","loadedFromSource":true,"saved":true,"sourceSize":{"x":92,"y":72},"rootRelativePath":"assets/cf9f03a6-6c78-4e10-a576-0ee43e43434b.png"},"1c637e5a-983c-4bbe-80ab-f4a683cca497":{"name":"arrow_left","sourceUrl":null,"frameSize":{"x":23,"y":24},"frameCount":12,"looping":true,"frameDelay":3,"version":"xrKihsRpX.72e_OmQIrTFtXfd0BBWw41","loadedFromSource":true,"saved":true,"sourceSize":{"x":92,"y":72},"rootRelativePath":"assets/1c637e5a-983c-4bbe-80ab-f4a683cca497.png"},"9c4b283f-b0fb-4c00-8127-428c99e75992":{"name":"black_cloud_test","sourceUrl":"assets/v3/animations/CNx3Tk2IYIT0Rb0gYcDKumbqsVEEZ8Xnp38_7kr6xsY/9c4b283f-b0fb-4c00-8127-428c99e75992.png","frameSize":{"x":260,"y":134},"frameCount":1,"looping":true,"frameDelay":4,"version":"rb.Qq8PwcMCrmW0dowffxWf0AJ4WIvqQ","loadedFromSource":true,"saved":true,"sourceSize":{"x":260,"y":134},"rootRelativePath":"assets/v3/animations/CNx3Tk2IYIT0Rb0gYcDKumbqsVEEZ8Xnp38_7kr6xsY/9c4b283f-b0fb-4c00-8127-428c99e75992.png"},"7d095ddd-f4d3-4ab1-8486-29c186d832a8":{"name":"game_over_test","sourceUrl":null,"frameSize":{"x":260,"y":49},"frameCount":1,"looping":true,"frameDelay":12,"version":"rXrE8z9tUOeFUrahJafRjo51nmm7wmwr","loadedFromSource":true,"saved":true,"sourceSize":{"x":260,"y":49},"rootRelativePath":"assets/7d095ddd-f4d3-4ab1-8486-29c186d832a8.png"},"f410964f-35a8-4666-b172-0f6eb8ace94b":{"name":"star_test","sourceUrl":null,"frameSize":{"x":30,"y":30},"frameCount":4,"looping":true,"frameDelay":12,"version":"msWFYOuk4TKXouw8NEzV0Ah7ObDA9EVD","loadedFromSource":true,"saved":true,"sourceSize":{"x":60,"y":60},"rootRelativePath":"assets/f410964f-35a8-4666-b172-0f6eb8ace94b.png"}}};
+  var animationListJSON = {"orderedKeys":["platform","42dda32b-2c42-44e8-a6df-fd7758ec30d4","32bcef29-79aa-4b7d-81f9-52f67bd454a7","e41e6eda-e58e-4dbf-9a0e-c12ab4783815","34fd6d61-22da-40da-8914-f5e5e3dfe5de","83b1cdae-0762-4110-8173-b83e0647ece4","485e4ef6-2ada-42e8-9cb1-44d097cbf544","3bb6bfbe-0b8c-41e3-b8fa-16e9c737b9f6","08e5072a-3158-4c42-b29d-d65d57a47646","2c12fe0c-4377-4af9-871e-b6f922d3837e","dc7d4787-e38f-4705-b0db-7b74bb5a40a2","cadfe296-dc7f-405b-ae06-8ff777bd31e4","4f6c846c-8f58-433c-bbe0-b863e580521e","star","0434ebc9-b343-41d4-b02e-658196cdd650","ce41cd9c-b307-4539-bd9c-8a0bc6d2d080","0685c618-e5ac-42a9-8b3f-911ddc77faf5","4078f4cd-779c-4685-8ead-4c84e7c846cc","2aa8c2eb-e4c7-4933-b34a-9ee4dbafc09f","69cbf9f1-b29a-4d7e-aa56-13968a8e1129","93e43753-e296-4f9e-90a3-4ae12746f095","465879a4-4707-4464-863e-3a1345493ccb","68edc2d3-c196-43f2-95cb-1ca5b65a7e20","45f50615-ac83-4500-847d-fb66fdfe34b6","26199761-9682-4ad2-ab8c-387757ceddf4","362ed82e-3ae3-45c2-b647-8203d8cd33b7","0a1a612f-ae41-4275-8c82-b800cfae387e","66118117-2b95-43dc-add6-92910ed9e0d2","7f4410ab-6af0-417d-ba88-d8dd5d876517","cfa96954-892c-4ed3-a3d3-f7eb78330e87","b1ea5352-a968-4c43-8900-73ddc61cb2fd","6995ee4d-592f-4b09-8204-b9550fbdda56","a0cf17e8-00ef-417f-bff3-797ca4d7642c","8a45c3cf-003e-44c3-97a6-9f672444c919","12939683-f496-4fda-af6f-6e4f77fda3ea","bb1342f3-6b62-469c-9b23-1cd99a0476a6","6ea420cf-9680-4565-937b-d4b90dd4cf4f","e8681016-89d1-4f7a-9554-23bb00607a65","b14544ea-4e0b-44c0-bd55-d2eed5a5247f","de0792ef-6853-41b5-a352-780623cc4722","7f69b8cc-584f-4a57-9c68-9a825d593cb8","0a2faaea-15c7-420c-8f30-27634632be2b","2416ee0c-73c7-40ed-8e30-cc56c20f195d","2e342ec2-8996-44b1-a564-fbe6eec5ae80","a5434c3e-983c-4f5b-9b5d-464982193076","d720ddf1-068a-4fb9-b677-3b2ccbc661f5","5fc070d2-29b1-4d73-bdc1-965435b9902d","0bdac755-d86f-4ae8-ad31-925c7c0233d9","38c094ed-755b-4a67-96d1-e4921123bc61","d2e7ff23-c19b-4f08-acd5-3a8cd686a1b6","8beb2c62-cb84-4b40-9b86-ccc3f72e48b3","3305eafa-3e03-4ba6-9801-d4cb7326a95c","1bc5e245-78c1-4f68-a72b-4caf7572f491","13e402df-7006-44b3-bf8b-5cb9223f449f","46b9fce8-6a80-473d-be5c-10ece5a3a56b","600e70f2-0440-48ea-9814-0f9dd827f3a1","be959314-252d-42b5-944c-ae370909ee8a","a99ac7f3-cf9a-4bdc-815f-5fdba87d74be","a10ec294-5b2d-4f8c-84a6-6022f239a43c","c25de883-f846-4188-a613-99f6da217d59","c3f08f1f-02d1-4fa2-bc0a-6b22ef4df16a","7c48f823-c689-454b-a07d-686078cb630e","1a794790-c3c4-4068-98d4-408c7050fa5f","c70a1350-983a-4272-ab1b-794a8832ebbf","042cf864-3e85-4ab4-90b5-bd8a98a5cdc2","878c7357-298b-4a1f-bbfa-9add5d268e26","25643a1b-d3f3-4a78-be0c-e5b38c1abccf","7b3e3f85-4a50-4eb9-95e8-7875455d3f00","6f2c8a48-fb2f-458f-9b11-cf9d3352300b","ec05f808-74a4-4a64-a68e-87264d0efcc8","5930f055-43c0-4921-aefa-b62d80026dd9","82a60caf-279e-4e7f-b451-77217ce64f93","3fe9bfcd-fb36-4b0e-b293-b7c61fed4433","65570d17-06e7-4476-b418-6d632618274c","e1c61dbf-5f8d-470c-afd5-4aeb0a76056b","8703d521-f897-4490-b9b5-1b5461fcb3a3","308814dc-27e0-49ae-a33f-60d0d5f6d2f1","4f0a94c2-9310-49f3-8229-8b3a6cd38760","c79bfad7-2da4-47d7-982c-c8bf4d2c0eeb","02e5ad2c-cc6d-4328-b37f-da2ec87a8183","5564dad4-4950-43b7-a104-1dc724762aa5","1e51873b-ea76-4dd5-8d50-1a4d1aab3e60","f36405a2-ea66-4cbc-a3a6-ee6694e7bcda","6b5d96c0-d99c-4d4a-87d6-94c759d07121","b19bdce4-07b6-48f8-8e36-7d102d96ec6d","015e6dab-fb15-4bb4-b49c-44465ebe3502","10bdfe60-d640-4a9c-be55-b134cb92d543","2279bdc1-88e6-4113-a5ae-942cdfe22785","61e69a6f-3661-4045-bf7a-0935ae5c0954","927467df-d768-4ae2-bdae-1ecb13a7b952","889cf96b-d3f4-43ef-9d12-5f774a1ce518","44a92ce5-ab75-4ad4-8fbe-b1f42f512429","9e20efa0-35ae-48bd-ba34-451831b0d90f","58b571b5-77b4-4802-8017-8d34f55a1792","93d82663-cdff-47ce-a0a2-9e04701a9b02","d9dd8b54-17ac-425e-8278-dd7259c3be29","1815e1b1-d408-46ba-9077-3afe4723b61f","9a18a540-6acb-45c7-acbd-bef492c349ef","e7f128aa-7cdb-441f-ba04-2bdfdeb742a2","db548238-6bff-479f-8d10-868fad48c104","cbc4b8a2-7438-4f25-b3eb-1f12e39699f4","c00d55ff-3b8c-44ff-b15e-b1fb0456aa44","3da37e8e-8431-4e1b-8dc8-7e900dddd836","f8d10153-c11c-4f52-bf37-1d512cd1b378","64dd5238-45b5-4cac-b916-586a38a119ba","dd70a6ec-91e6-4132-9dd0-e2a84512be1e","1bc088ee-5058-4267-9bb7-794cddc84691","941b9d40-c051-44c5-baf0-eaa30a5e0acb","d2ed2b38-8313-4096-840d-df1749aa2515","573459a4-dcda-4c05-b596-43496618def7","cd62a665-d18d-4e9f-b61b-f85673f67dcf","d24e8b78-61d9-4c4a-9ccc-3aace7558358","cf9f03a6-6c78-4e10-a576-0ee43e43434b","1c637e5a-983c-4bbe-80ab-f4a683cca497","9c4b283f-b0fb-4c00-8127-428c99e75992","7d095ddd-f4d3-4ab1-8486-29c186d832a8","f410964f-35a8-4666-b172-0f6eb8ace94b"],"propsByKey":{"platform":{"name":"platformoriginal","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"mtuqHX50cvRFjY2fwIUygVLZwD1x9ThO","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/platform.png"},"42dda32b-2c42-44e8-a6df-fd7758ec30d4":{"name":"platform_2","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"AVqnhDB0gD2vt4s21GqKxxAvWWO39rdA","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/42dda32b-2c42-44e8-a6df-fd7758ec30d4.png"},"32bcef29-79aa-4b7d-81f9-52f67bd454a7":{"name":"platform_2_ice","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"EEd8uIyhhsn0Gjlz4hzLK82Do1KB3cAb","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/32bcef29-79aa-4b7d-81f9-52f67bd454a7.png"},"e41e6eda-e58e-4dbf-9a0e-c12ab4783815":{"name":"platform_1_ice","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"wnT0tWgK3vPSRFsttNbagK.Fh8p6dUu7","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/e41e6eda-e58e-4dbf-9a0e-c12ab4783815.png"},"34fd6d61-22da-40da-8914-f5e5e3dfe5de":{"name":"platform_3_ice","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"RB4Y4NOq_89VrF6.8IFE.40g.DkwTLat","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/34fd6d61-22da-40da-8914-f5e5e3dfe5de.png"},"83b1cdae-0762-4110-8173-b83e0647ece4":{"name":"platformoriginal_ice","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"xZH0ijfG1OO7WkdTBotMbvKBZPW6tpNK","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/83b1cdae-0762-4110-8173-b83e0647ece4.png"},"485e4ef6-2ada-42e8-9cb1-44d097cbf544":{"name":"platformicehitbox","sourceUrl":null,"frameSize":{"x":160,"y":30},"frameCount":1,"looping":true,"frameDelay":12,"version":"pqExq2Pgh4lL4USdCsLrAWZXAYG_xYi7","loadedFromSource":true,"saved":true,"sourceSize":{"x":160,"y":30},"rootRelativePath":"assets/485e4ef6-2ada-42e8-9cb1-44d097cbf544.png"},"3bb6bfbe-0b8c-41e3-b8fa-16e9c737b9f6":{"name":"platform","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"3DtxAz.R_ONYxZ3d5YfWx2_vzO8YOit1","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/3bb6bfbe-0b8c-41e3-b8fa-16e9c737b9f6.png"},"08e5072a-3158-4c42-b29d-d65d57a47646":{"name":"platform_3","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"78K6HV3bU4oF.rR8b6LGVRUPaZRFkcoK","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/08e5072a-3158-4c42-b29d-d65d57a47646.png"},"2c12fe0c-4377-4af9-871e-b6f922d3837e":{"name":"platform_4","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"wdBS_kpyAm2le8tzsbppuBfqL41xt_.N","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/2c12fe0c-4377-4af9-871e-b6f922d3837e.png"},"dc7d4787-e38f-4705-b0db-7b74bb5a40a2":{"name":"platform_5","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"THiEif94Apcnf0ecF_tmPkF4Xd_eOaun","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/dc7d4787-e38f-4705-b0db-7b74bb5a40a2.png"},"cadfe296-dc7f-405b-ae06-8ff777bd31e4":{"name":"platform_6","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"SrTaiBcQU_m8fm5r_nE50pXtjJix8K_7","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/cadfe296-dc7f-405b-ae06-8ff777bd31e4.png"},"4f6c846c-8f58-433c-bbe0-b863e580521e":{"name":"platform_7","sourceUrl":null,"frameSize":{"x":150,"y":20},"frameCount":1,"looping":true,"frameDelay":12,"version":"Kw7LxEwWXot3CS5ew1q_KPglDoEgDjzf","loadedFromSource":true,"saved":true,"sourceSize":{"x":150,"y":20},"rootRelativePath":"assets/4f6c846c-8f58-433c-bbe0-b863e580521e.png"},"star":{"name":"coin_spin","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":6,"looping":true,"frameDelay":5,"version":"5I9NX.WInrHLY0IdYfDTzyrHXT3Fhn5Z","loadedFromSource":true,"saved":true,"sourceSize":{"x":120,"y":180},"rootRelativePath":"assets/star.png"},"0434ebc9-b343-41d4-b02e-658196cdd650":{"name":"coin_still","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":1,"looping":true,"frameDelay":12,"version":"XHk3L12D5bbyphRBmHfiSXt__IHc1aPa","loadedFromSource":true,"saved":true,"sourceSize":{"x":60,"y":60},"rootRelativePath":"assets/0434ebc9-b343-41d4-b02e-658196cdd650.png"},"ce41cd9c-b307-4539-bd9c-8a0bc6d2d080":{"name":"coin_big","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":6,"looping":true,"frameDelay":4,"version":"aZlYOoU5gQuQ6GHn.gp3cScnkUet4e3c","loadedFromSource":true,"saved":true,"sourceSize":{"x":120,"y":180},"rootRelativePath":"assets/ce41cd9c-b307-4539-bd9c-8a0bc6d2d080.png"},"0685c618-e5ac-42a9-8b3f-911ddc77faf5":{"name":"coin_2","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":10,"looping":true,"frameDelay":3,"version":"zxEybFU9Wv9buSpke3dKWZTs6d1nFmCZ","loadedFromSource":true,"saved":true,"sourceSize":{"x":180,"y":240},"rootRelativePath":"assets/0685c618-e5ac-42a9-8b3f-911ddc77faf5.png"},"4078f4cd-779c-4685-8ead-4c84e7c846cc":{"name":"coin_2_still","sourceUrl":null,"frameSize":{"x":60,"y":60},"frameCount":1,"looping":true,"frameDelay":12,"version":"5cypp15PCO2omF7mPkXl0joEtYiGMS7w","loadedFromSource":true,"saved":true,"sourceSize":{"x":60,"y":60},"rootRelativePath":"assets/4078f4cd-779c-4685-8ead-4c84e7c846cc.png"},"2aa8c2eb-e4c7-4933-b34a-9ee4dbafc09f":{"name":"coin_2_big","sourceUrl":null,"frameSize":{"x":480,"y":480},"frameCount":10,"looping":true,"frameDelay":2,"version":"3JLDRs.tpS1msi0JZLpEYQj4QNhfuf2Z","loadedFromSource":true,"saved":true,"sourceSize":{"x":1440,"y":1920},"rootRelativePath":"assets/2aa8c2eb-e4c7-4933-b34a-9ee4dbafc09f.png"},"69cbf9f1-b29a-4d7e-aa56-13968a8e1129":{"name":"stick_still","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"0nwTa4_qbHIM1rB3vQ5dBxRBzTTPAXUP","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/69cbf9f1-b29a-4d7e-aa56-13968a8e1129.png"},"93e43753-e296-4f9e-90a3-4ae12746f095":{"name":"stick_still_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"C_Jx3eDFAmlPlrO.z6EwXRfKPBC4dn9b","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/93e43753-e296-4f9e-90a3-4ae12746f095.png"},"465879a4-4707-4464-863e-3a1345493ccb":{"name":"stick_run_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"R.INrZe1AVLkn4vrEK9VzbfmgvE3bNBG","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/465879a4-4707-4464-863e-3a1345493ccb.png"},"68edc2d3-c196-43f2-95cb-1ca5b65a7e20":{"name":"stick_run_re_copy_1","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":5,"looping":true,"frameDelay":12,"version":"XKzuaHdd3GTAaYcpm9Pi0xj85vucIf_p","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":300},"rootRelativePath":"assets/68edc2d3-c196-43f2-95cb-1ca5b65a7e20.png"},"45f50615-ac83-4500-847d-fb66fdfe34b6":{"name":"stick_up_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"noEhHLt7F_VS3T9uB0ZUyuvpOz5kJF.N","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/45f50615-ac83-4500-847d-fb66fdfe34b6.png"},"26199761-9682-4ad2-ab8c-387757ceddf4":{"name":"stick_up","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"U4wbTwKLTu01VYj58l_Seth4ANlgKm2Y","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/26199761-9682-4ad2-ab8c-387757ceddf4.png"},"362ed82e-3ae3-45c2-b647-8203d8cd33b7":{"name":"stick_duck","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"n9z5KO0YkcxjLQlgUuTO.W_17bt790GZ","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/362ed82e-3ae3-45c2-b647-8203d8cd33b7.png"},"0a1a612f-ae41-4275-8c82-b800cfae387e":{"name":"stick_duck_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"TmLKLCXHeLia9sPQVZltc8gIqsBkWxth","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/0a1a612f-ae41-4275-8c82-b800cfae387e.png"},"66118117-2b95-43dc-add6-92910ed9e0d2":{"name":"stick_duck_re2","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"3NHrkEDvRUG0UBBdlPE3Wx4UF0_NRVxq","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/66118117-2b95-43dc-add6-92910ed9e0d2.png"},"7f4410ab-6af0-417d-ba88-d8dd5d876517":{"name":"stick_game_over","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"fu_5_h_rnqxd1SnnHgcueq2dc1RaWQ74","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/7f4410ab-6af0-417d-ba88-d8dd5d876517.png"},"cfa96954-892c-4ed3-a3d3-f7eb78330e87":{"name":"stick_jump","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"OwN3JctyKrxLkQsH6Ajca.VqNeHsy0A4","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/cfa96954-892c-4ed3-a3d3-f7eb78330e87.png"},"b1ea5352-a968-4c43-8900-73ddc61cb2fd":{"name":"stick_jump_re","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"MN.ac8JU9rgSOfGtjf0zD9dOG0LwL4rP","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/b1ea5352-a968-4c43-8900-73ddc61cb2fd.png"},"6995ee4d-592f-4b09-8204-b9550fbdda56":{"name":"stick_jump_re2","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"xyFQTEi7cJRVz1Os.wzi8HhY0QaAcg3X","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/6995ee4d-592f-4b09-8204-b9550fbdda56.png"},"a0cf17e8-00ef-417f-bff3-797ca4d7642c":{"name":"stick_jump2","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"d_GuPIn_zrcdUxwVIChBVrrv2DTF.CQ.","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/a0cf17e8-00ef-417f-bff3-797ca4d7642c.png"},"8a45c3cf-003e-44c3-97a6-9f672444c919":{"name":"stick_run","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":12,"looping":true,"frameDelay":4,"version":"m1rwoIvlW9cLxuIIm4aqQDywDPVFq9w1","loadedFromSource":true,"saved":true,"sourceSize":{"x":600,"y":800},"rootRelativePath":"assets/8a45c3cf-003e-44c3-97a6-9f672444c919.png"},"12939683-f496-4fda-af6f-6e4f77fda3ea":{"name":"stick_run3","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":12,"looping":true,"frameDelay":3,"version":"fA4H6U.ixC3PSFw9xk2MXqqx4EIzNQ1Q","loadedFromSource":true,"saved":true,"sourceSize":{"x":600,"y":800},"rootRelativePath":"assets/12939683-f496-4fda-af6f-6e4f77fda3ea.png"},"bb1342f3-6b62-469c-9b23-1cd99a0476a6":{"name":"stick_run4","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":12,"looping":true,"frameDelay":3,"version":"Xn9INkUmFR0zgWBAZztRkadjtJsPTKy0","loadedFromSource":true,"saved":true,"sourceSize":{"x":600,"y":800},"rootRelativePath":"assets/bb1342f3-6b62-469c-9b23-1cd99a0476a6.png"},"6ea420cf-9680-4565-937b-d4b90dd4cf4f":{"name":"stick_run2","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":12,"looping":true,"frameDelay":5,"version":"msFYyrx_6XHd6eQFhXqADgVtPq1HdEFV","loadedFromSource":true,"saved":true,"sourceSize":{"x":600,"y":800},"rootRelativePath":"assets/6ea420cf-9680-4565-937b-d4b90dd4cf4f.png"},"e8681016-89d1-4f7a-9554-23bb00607a65":{"name":"stick_look","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":21,"looping":true,"frameDelay":3,"version":"I1A_Jul6aPz5o99V8aY3cGHDk.m012Wh","loadedFromSource":true,"saved":true,"sourceSize":{"x":500,"y":500},"rootRelativePath":"assets/e8681016-89d1-4f7a-9554-23bb00607a65.png"},"b14544ea-4e0b-44c0-bd55-d2eed5a5247f":{"name":"stick_look_still","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"zkEqJy5IbKyzKzNZ6rK.svb1oovOUG_n","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/b14544ea-4e0b-44c0-bd55-d2eed5a5247f.png"},"de0792ef-6853-41b5-a352-780623cc4722":{"name":"stick_hurt","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"5Me3Y5RT1_Je_IRwqYFeG0YQLHq1hCrH","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/de0792ef-6853-41b5-a352-780623cc4722.png"},"7f69b8cc-584f-4a57-9c68-9a825d593cb8":{"name":"cloud_1","sourceUrl":null,"frameSize":{"x":300,"y":300},"frameCount":1,"looping":true,"frameDelay":12,"version":"C8pz1Z03n2brKE8TnEZ2rEYR30JyTYfC","loadedFromSource":true,"saved":true,"sourceSize":{"x":300,"y":300},"rootRelativePath":"assets/7f69b8cc-584f-4a57-9c68-9a825d593cb8.png"},"0a2faaea-15c7-420c-8f30-27634632be2b":{"name":"Stick_Gameover","sourceUrl":null,"frameSize":{"x":236,"y":104},"frameCount":15,"looping":true,"frameDelay":3,"version":"W.Tk2.qFbizooCsdMlOMTZElKc3L783P","loadedFromSource":true,"saved":true,"sourceSize":{"x":708,"y":520},"rootRelativePath":"assets/0a2faaea-15c7-420c-8f30-27634632be2b.png"},"2416ee0c-73c7-40ed-8e30-cc56c20f195d":{"name":"restart_text","sourceUrl":null,"frameSize":{"x":130,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"fQx0pwLdxlwnxKqYpkyeJQcQP2j9MCwm","loadedFromSource":true,"saved":true,"sourceSize":{"x":130,"y":22},"rootRelativePath":"assets/2416ee0c-73c7-40ed-8e30-cc56c20f195d.png"},"2e342ec2-8996-44b1-a564-fbe6eec5ae80":{"name":"restart_text_hover","sourceUrl":null,"frameSize":{"x":142,"y":34},"frameCount":1,"looping":true,"frameDelay":12,"version":"KCajNxNjlse0f4TvpRV0E8s._S.iliEt","loadedFromSource":true,"saved":true,"sourceSize":{"x":142,"y":34},"rootRelativePath":"assets/2e342ec2-8996-44b1-a564-fbe6eec5ae80.png"},"a5434c3e-983c-4f5b-9b5d-464982193076":{"name":"store_text","sourceUrl":null,"frameSize":{"x":90,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"W58uFByXZNIZP_64eVvY2F0ZOQg_NMja","loadedFromSource":true,"saved":true,"sourceSize":{"x":90,"y":22},"rootRelativePath":"assets/a5434c3e-983c-4f5b-9b5d-464982193076.png"},"d720ddf1-068a-4fb9-b677-3b2ccbc661f5":{"name":"control_text","sourceUrl":null,"frameSize":{"x":148,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"0yZV0oBu6V1C2lqLR5t8PYQd3NgNy_XL","loadedFromSource":true,"saved":true,"sourceSize":{"x":148,"y":22},"rootRelativePath":"assets/d720ddf1-068a-4fb9-b677-3b2ccbc661f5.png"},"5fc070d2-29b1-4d73-bdc1-965435b9902d":{"name":"control_text_hover","sourceUrl":null,"frameSize":{"x":160,"y":34},"frameCount":1,"looping":true,"frameDelay":12,"version":"fZr_9EIma56nH0.uCyDE.bZs8OERvckp","loadedFromSource":true,"saved":true,"sourceSize":{"x":160,"y":34},"rootRelativePath":"assets/5fc070d2-29b1-4d73-bdc1-965435b9902d.png"},"0bdac755-d86f-4ae8-ad31-925c7c0233d9":{"name":"start_text","sourceUrl":null,"frameSize":{"x":94,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"IuGqC8kRvO6s7_FudSFlMaN.OD0tPz5m","loadedFromSource":true,"saved":true,"sourceSize":{"x":94,"y":22},"rootRelativePath":"assets/0bdac755-d86f-4ae8-ad31-925c7c0233d9.png"},"38c094ed-755b-4a67-96d1-e4921123bc61":{"name":"start_text_hover","sourceUrl":null,"frameSize":{"x":106,"y":34},"frameCount":1,"looping":true,"frameDelay":12,"version":"ITlrObR8r1kR5UepacAQg_SzlH.o.FJA","loadedFromSource":true,"saved":true,"sourceSize":{"x":106,"y":34},"rootRelativePath":"assets/38c094ed-755b-4a67-96d1-e4921123bc61.png"},"d2e7ff23-c19b-4f08-acd5-3a8cd686a1b6":{"name":"pause_title_text","sourceUrl":null,"frameSize":{"x":160,"y":66},"frameCount":1,"looping":true,"frameDelay":12,"version":"2mr5DHWrcPdQnJB_QYlzHWzyiN6s7huV","loadedFromSource":true,"saved":true,"sourceSize":{"x":160,"y":66},"rootRelativePath":"assets/d2e7ff23-c19b-4f08-acd5-3a8cd686a1b6.png"},"8beb2c62-cb84-4b40-9b86-ccc3f72e48b3":{"name":"back_text","sourceUrl":null,"frameSize":{"x":70,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"GdKXO8SJCAP0qktepH8M0bUtZZ4yOoYU","loadedFromSource":true,"saved":true,"sourceSize":{"x":70,"y":22},"rootRelativePath":"assets/8beb2c62-cb84-4b40-9b86-ccc3f72e48b3.png"},"3305eafa-3e03-4ba6-9801-d4cb7326a95c":{"name":"textGameOver_1","sourceUrl":null,"frameSize":{"x":320,"y":44},"frameCount":1,"looping":true,"frameDelay":12,"version":"mXspEBGel2B_hWgJS1_C0Bre08u_9ZvA","loadedFromSource":true,"saved":true,"sourceSize":{"x":320,"y":44},"rootRelativePath":"assets/3305eafa-3e03-4ba6-9801-d4cb7326a95c.png"},"1bc5e245-78c1-4f68-a72b-4caf7572f491":{"name":"menu_text","sourceUrl":null,"frameSize":{"x":78,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"CU6eN.y9CmbDzjnhLUp_qWpy1bOeLzil","loadedFromSource":true,"saved":true,"sourceSize":{"x":78,"y":22},"rootRelativePath":"assets/1bc5e245-78c1-4f68-a72b-4caf7572f491.png"},"13e402df-7006-44b3-bf8b-5cb9223f449f":{"name":"title_text","sourceUrl":null,"frameSize":{"x":198,"y":50},"frameCount":1,"looping":true,"frameDelay":12,"version":"WbAxP7MBegZQIXByBtIlQBe4rl4WtLkW","loadedFromSource":true,"saved":true,"sourceSize":{"x":198,"y":50},"rootRelativePath":"assets/13e402df-7006-44b3-bf8b-5cb9223f449f.png"},"46b9fce8-6a80-473d-be5c-10ece5a3a56b":{"name":"title_character","sourceUrl":null,"frameSize":{"x":300,"y":300},"frameCount":1,"looping":true,"frameDelay":12,"version":"g4zJmd5AYZ_UFRLfUkn9rCciQz1XDFUb","loadedFromSource":true,"saved":true,"sourceSize":{"x":300,"y":300},"rootRelativePath":"assets/46b9fce8-6a80-473d-be5c-10ece5a3a56b.png"},"600e70f2-0440-48ea-9814-0f9dd827f3a1":{"name":"title_picture_ob","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":1,"looping":true,"frameDelay":12,"version":"NiBXh77po_4RVQ67Oab5k8_eC4DuvRk_","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":200},"rootRelativePath":"assets/600e70f2-0440-48ea-9814-0f9dd827f3a1.png"},"be959314-252d-42b5-944c-ae370909ee8a":{"name":"store_item_1_notbought","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"N4qjLIERKbcEQV5HvNiLbyRWuNaDMYwh","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/be959314-252d-42b5-944c-ae370909ee8a.png"},"a99ac7f3-cf9a-4bdc-815f-5fdba87d74be":{"name":"store_item_2_notbought","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"cqxOXKQVEzeYYtgm1g53pJWQinMPSUAA","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/a99ac7f3-cf9a-4bdc-815f-5fdba87d74be.png"},"a10ec294-5b2d-4f8c-84a6-6022f239a43c":{"name":"store_item_1_bought","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"77XuL5Soqf8pntEtN8bxZb92M5HpdWuo","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/a10ec294-5b2d-4f8c-84a6-6022f239a43c.png"},"c25de883-f846-4188-a613-99f6da217d59":{"name":"enemy_still","sourceUrl":null,"frameSize":{"x":56,"y":60},"frameCount":1,"looping":true,"frameDelay":12,"version":"RLwWwYJuXdTmNteqCCur7TjClNOdoAwC","loadedFromSource":true,"saved":true,"sourceSize":{"x":56,"y":60},"rootRelativePath":"assets/c25de883-f846-4188-a613-99f6da217d59.png"},"c3f08f1f-02d1-4fa2-bc0a-6b22ef4df16a":{"name":"enemy_jump","sourceUrl":null,"frameSize":{"x":56,"y":60},"frameCount":5,"looping":true,"frameDelay":10,"version":"d4jzOTyTJab44OXxHqTytIW6NrwtPLK8","loadedFromSource":true,"saved":true,"sourceSize":{"x":112,"y":180},"rootRelativePath":"assets/c3f08f1f-02d1-4fa2-bc0a-6b22ef4df16a.png"},"7c48f823-c689-454b-a07d-686078cb630e":{"name":"control_layout","sourceUrl":null,"frameSize":{"x":400,"y":400},"frameCount":1,"looping":true,"frameDelay":12,"version":"V5gCXM6ciNCRaztKJfUPxbPEYn2IQCVs","loadedFromSource":true,"saved":true,"sourceSize":{"x":400,"y":400},"rootRelativePath":"assets/7c48f823-c689-454b-a07d-686078cb630e.png"},"1a794790-c3c4-4068-98d4-408c7050fa5f":{"name":"BackgroundAnimationold","sourceUrl":null,"frameSize":{"x":300,"y":300},"frameCount":18,"looping":true,"frameDelay":4,"version":"i92j7sclSEQRrTAGOaf448brWz4g7e58","loadedFromSource":true,"saved":true,"sourceSize":{"x":1200,"y":1500},"rootRelativePath":"assets/1a794790-c3c4-4068-98d4-408c7050fa5f.png"},"c70a1350-983a-4272-ab1b-794a8832ebbf":{"name":"BackgroundAnimation","sourceUrl":null,"frameSize":{"x":300,"y":300},"frameCount":18,"looping":true,"frameDelay":4,"version":"n3WW8ej.NtgcG5OuXR0JMVYIiPTq496U","loadedFromSource":true,"saved":true,"sourceSize":{"x":1200,"y":1500},"rootRelativePath":"assets/c70a1350-983a-4272-ab1b-794a8832ebbf.png"},"042cf864-3e85-4ab4-90b5-bd8a98a5cdc2":{"name":"BackgroundAnimation_copy_1","sourceUrl":null,"frameSize":{"x":600,"y":600},"frameCount":18,"looping":true,"frameDelay":4,"version":"gOl7nlDmHZ8xYUdDsdGo6oE9YYcGUVkT","loadedFromSource":true,"saved":true,"sourceSize":{"x":2400,"y":3000},"rootRelativePath":"assets/042cf864-3e85-4ab4-90b5-bd8a98a5cdc2.png"},"878c7357-298b-4a1f-bbfa-9add5d268e26":{"name":"BackgroundAnimation_sm","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":18,"looping":true,"frameDelay":4,"version":"XgIrQnXeTc5Js6jXXPHlz0QLSL6n6zqU","loadedFromSource":true,"saved":true,"sourceSize":{"x":800,"y":1000},"rootRelativePath":"assets/878c7357-298b-4a1f-bbfa-9add5d268e26.png"},"25643a1b-d3f3-4a78-be0c-e5b38c1abccf":{"name":"Sun","sourceUrl":null,"frameSize":{"x":74,"y":74},"frameCount":1,"looping":true,"frameDelay":12,"version":"3FQmS6kxuisWiB0bEKLjG.od6LYHVFl0","loadedFromSource":true,"saved":true,"sourceSize":{"x":74,"y":74},"rootRelativePath":"assets/25643a1b-d3f3-4a78-be0c-e5b38c1abccf.png"},"7b3e3f85-4a50-4eb9-95e8-7875455d3f00":{"name":"Sunset","sourceUrl":null,"frameSize":{"x":74,"y":74},"frameCount":1,"looping":true,"frameDelay":12,"version":"acu9MlYN.YmcCGgwgKmru5rT2_bwDzWL","loadedFromSource":true,"saved":true,"sourceSize":{"x":74,"y":74},"rootRelativePath":"assets/7b3e3f85-4a50-4eb9-95e8-7875455d3f00.png"},"6f2c8a48-fb2f-458f-9b11-cf9d3352300b":{"name":"moon","sourceUrl":null,"frameSize":{"x":74,"y":74},"frameCount":1,"looping":true,"frameDelay":12,"version":"n9fitMjL0AxYGtDImeYJ7M6cbZsOD1rT","loadedFromSource":true,"saved":true,"sourceSize":{"x":74,"y":74},"rootRelativePath":"assets/6f2c8a48-fb2f-458f-9b11-cf9d3352300b.png"},"ec05f808-74a4-4a64-a68e-87264d0efcc8":{"name":"onceinabluemoon","sourceUrl":null,"frameSize":{"x":74,"y":74},"frameCount":1,"looping":true,"frameDelay":12,"version":"JZEZpyuaY_FCMhUK6gGWVFkMFYpjsDvg","loadedFromSource":true,"saved":true,"sourceSize":{"x":74,"y":74},"rootRelativePath":"assets/ec05f808-74a4-4a64-a68e-87264d0efcc8.png"},"5930f055-43c0-4921-aefa-b62d80026dd9":{"name":"Achievement1","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"iMtYM8bU2fQgtJrKY3H3XtOyDGRdsgHF","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/5930f055-43c0-4921-aefa-b62d80026dd9.png"},"82a60caf-279e-4e7f-b451-77217ce64f93":{"name":"Achievement1_complete","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"smLEqHrPtClpgdUbqxt5HGRS_xLqz5uP","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/82a60caf-279e-4e7f-b451-77217ce64f93.png"},"3fe9bfcd-fb36-4b0e-b293-b7c61fed4433":{"name":"Achievement2","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"37BsO_RnUH6O2omgNYSVi3RY1boZvjtT","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/3fe9bfcd-fb36-4b0e-b293-b7c61fed4433.png"},"65570d17-06e7-4476-b418-6d632618274c":{"name":"Achievement2_complete","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"h08gTvuiWnnMuYJhZUkLYRdEbQcbbINt","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/65570d17-06e7-4476-b418-6d632618274c.png"},"e1c61dbf-5f8d-470c-afd5-4aeb0a76056b":{"name":"Achievement3","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"nWoWs61W1CHEvfHQ3.R2dI3KZ1n.yy5g","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/e1c61dbf-5f8d-470c-afd5-4aeb0a76056b.png"},"8703d521-f897-4490-b9b5-1b5461fcb3a3":{"name":"Achievement3_complete","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":1,"looping":true,"frameDelay":12,"version":"kwy6zBJPg6kMxzMFQ.oYyRXegwoek65V","loadedFromSource":true,"saved":true,"sourceSize":{"x":102,"y":90},"rootRelativePath":"assets/8703d521-f897-4490-b9b5-1b5461fcb3a3.png"},"308814dc-27e0-49ae-a33f-60d0d5f6d2f1":{"name":"Achievement4","sourceUrl":null,"frameSize":{"x":102,"y":90},"frameCount":6,"looping":true,"frameDelay":3,"version":"Tb6H7v1s8p5eVE4Fg_JPyo7BiU8h1pZ7","loadedFromSource":true,"saved":true,"sourceSize":{"x":204,"y":270},"rootRelativePath":"assets/308814dc-27e0-49ae-a33f-60d0d5f6d2f1.png"},"4f0a94c2-9310-49f3-8229-8b3a6cd38760":{"name":"backgroundtest","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":52,"looping":true,"frameDelay":1,"version":"j.HuTe3HX3pyVTsLRJ4dcgwervTE2C77","loadedFromSource":true,"saved":true,"sourceSize":{"x":700,"y":800},"rootRelativePath":"assets/4f0a94c2-9310-49f3-8229-8b3a6cd38760.png"},"c79bfad7-2da4-47d7-982c-c8bf4d2c0eeb":{"name":"background_achievements","sourceUrl":null,"frameSize":{"x":400,"y":400},"frameCount":52,"looping":true,"frameDelay":1,"version":"nyuWli_IybeB3IhadAF339MKdBGB9uD1","loadedFromSource":true,"saved":true,"sourceSize":{"x":2800,"y":3200},"rootRelativePath":"assets/c79bfad7-2da4-47d7-982c-c8bf4d2c0eeb.png"},"02e5ad2c-cc6d-4328-b37f-da2ec87a8183":{"name":"gridtest","sourceUrl":null,"frameSize":{"x":800,"y":800},"frameCount":1,"looping":true,"frameDelay":1,"version":"Hb0qCZI0ysTsoo1pchWLPOXHs3HDqQoA","loadedFromSource":true,"saved":true,"sourceSize":{"x":800,"y":800},"rootRelativePath":"assets/02e5ad2c-cc6d-4328-b37f-da2ec87a8183.png"},"5564dad4-4950-43b7-a104-1dc724762aa5":{"name":"gridtest_copy_1","sourceUrl":null,"frameSize":{"x":800,"y":800},"frameCount":2,"looping":true,"frameDelay":1,"version":"75ozWPiVegcHQaFJbshRW4dfhrfd6JOb","loadedFromSource":true,"saved":true,"sourceSize":{"x":800,"y":1600},"rootRelativePath":"assets/5564dad4-4950-43b7-a104-1dc724762aa5.png"},"1e51873b-ea76-4dd5-8d50-1a4d1aab3e60":{"name":"water","sourceUrl":null,"frameSize":{"x":800,"y":400},"frameCount":1,"looping":true,"frameDelay":12,"version":"Cp9k8YBZ4vudLBqp7.Kb59ef5MZ1ou13","loadedFromSource":true,"saved":true,"sourceSize":{"x":800,"y":400},"rootRelativePath":"assets/1e51873b-ea76-4dd5-8d50-1a4d1aab3e60.png"},"f36405a2-ea66-4cbc-a3a6-ee6694e7bcda":{"name":"logo_startup_current","sourceUrl":null,"frameSize":{"x":100,"y":130},"frameCount":1,"looping":true,"frameDelay":12,"version":"Wk5DUxGbNNmRbAwpR4fDnLM05puGFxSs","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":130},"rootRelativePath":"assets/f36405a2-ea66-4cbc-a3a6-ee6694e7bcda.png"},"6b5d96c0-d99c-4d4a-87d6-94c759d07121":{"name":"logo_startup","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"uuqAYMZcGeo6fvmFhaMOw8IzIzzkT0Vl","loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/6b5d96c0-d99c-4d4a-87d6-94c759d07121.png"},"b19bdce4-07b6-48f8-8e36-7d102d96ec6d":{"name":"runs_on_pe2","sourceUrl":null,"frameSize":{"x":200,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"jVSXuqtBly7r31wgnGuzP7h9C44Dqked","loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":100},"rootRelativePath":"assets/b19bdce4-07b6-48f8-8e36-7d102d96ec6d.png"},"015e6dab-fb15-4bb4-b49c-44465ebe3502":{"name":"save_icon","sourceUrl":null,"frameSize":{"x":237,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"_WnwVX7z10tmu64GvukHGY8bsqUiQbsH","loadedFromSource":true,"saved":true,"sourceSize":{"x":237,"y":100},"rootRelativePath":"assets/015e6dab-fb15-4bb4-b49c-44465ebe3502.png"},"10bdfe60-d640-4a9c-be55-b134cb92d543":{"name":"save_icon_cloud","sourceUrl":null,"frameSize":{"x":237,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"LqPS5SE3QyK3dPH.NWDd27R3EBQIihUE","loadedFromSource":true,"saved":true,"sourceSize":{"x":237,"y":100},"rootRelativePath":"assets/10bdfe60-d640-4a9c-be55-b134cb92d543.png"},"2279bdc1-88e6-4113-a5ae-942cdfe22785":{"name":"load_icon_cloud","sourceUrl":null,"frameSize":{"x":237,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"I_xaKjQKyEQJtkO_VE0UBAhHeqMpq8uF","loadedFromSource":true,"saved":true,"sourceSize":{"x":237,"y":100},"rootRelativePath":"assets/2279bdc1-88e6-4113-a5ae-942cdfe22785.png"},"61e69a6f-3661-4045-bf7a-0935ae5c0954":{"name":"load_icon","sourceUrl":null,"frameSize":{"x":237,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"mfzG8_C5Kci3MDnIvl7VZH_gkizDWeDa","loadedFromSource":true,"saved":true,"sourceSize":{"x":237,"y":100},"rootRelativePath":"assets/61e69a6f-3661-4045-bf7a-0935ae5c0954.png"},"927467df-d768-4ae2-bdae-1ecb13a7b952":{"name":"fadeaway_test","sourceUrl":null,"frameSize":{"x":400,"y":800},"frameCount":1,"looping":true,"frameDelay":12,"version":"5VMAj8LCfAk0ygppUheHzgOSkbSL15Zr","loadedFromSource":true,"saved":true,"sourceSize":{"x":400,"y":800},"rootRelativePath":"assets/927467df-d768-4ae2-bdae-1ecb13a7b952.png"},"889cf96b-d3f4-43ef-9d12-5f774a1ce518":{"name":"stick_drown","sourceUrl":null,"frameSize":{"x":200,"y":200},"frameCount":4,"looping":true,"frameDelay":5,"version":"HE8c38Hq9W_jLXz3KlT3DACCvtsUMTdw","loadedFromSource":true,"saved":true,"sourceSize":{"x":400,"y":400},"rootRelativePath":"assets/889cf96b-d3f4-43ef-9d12-5f774a1ce518.png"},"44a92ce5-ab75-4ad4-8fbe-b1f42f512429":{"name":"options_text","sourceUrl":null,"frameSize":{"x":130,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"ttvFYkX7k2kRFPiKu22Uy0hope4eLV2.","loadedFromSource":true,"saved":true,"sourceSize":{"x":130,"y":22},"rootRelativePath":"assets/44a92ce5-ab75-4ad4-8fbe-b1f42f512429.png"},"9e20efa0-35ae-48bd-ba34-451831b0d90f":{"name":"options_text_hover","sourceUrl":null,"frameSize":{"x":142,"y":34},"frameCount":1,"looping":true,"frameDelay":12,"version":"WRxdO7y2thIrCC.CvDB0s6SRnG5jLW0t","loadedFromSource":true,"saved":true,"sourceSize":{"x":142,"y":34},"rootRelativePath":"assets/9e20efa0-35ae-48bd-ba34-451831b0d90f.png"},"58b571b5-77b4-4802-8017-8d34f55a1792":{"name":"switch_off","sourceUrl":null,"frameSize":{"x":122,"y":76},"frameCount":1,"looping":true,"frameDelay":12,"version":"HXe.1lv_FPPfsnidubeSWHtvO729uv5z","loadedFromSource":true,"saved":true,"sourceSize":{"x":122,"y":76},"rootRelativePath":"assets/58b571b5-77b4-4802-8017-8d34f55a1792.png"},"93d82663-cdff-47ce-a0a2-9e04701a9b02":{"name":"switch_on","sourceUrl":null,"frameSize":{"x":122,"y":76},"frameCount":1,"looping":true,"frameDelay":12,"version":"irsC1QxujC51Cz874rd_VqKf60MJoTYZ","loadedFromSource":true,"saved":true,"sourceSize":{"x":122,"y":76},"rootRelativePath":"assets/93d82663-cdff-47ce-a0a2-9e04701a9b02.png"},"d9dd8b54-17ac-425e-8278-dd7259c3be29":{"name":"loadonly_text","sourceUrl":null,"frameSize":{"x":70,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"gLiUElnVVUzZrbPdApY0m0Ts9AehzLmC","loadedFromSource":true,"saved":true,"sourceSize":{"x":70,"y":22},"rootRelativePath":"assets/d9dd8b54-17ac-425e-8278-dd7259c3be29.png"},"1815e1b1-d408-46ba-9077-3afe4723b61f":{"name":"save_text","sourceUrl":null,"frameSize":{"x":178,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"nTURH90q3lKBb1yBZB5nYK2d8TdPvO88","loadedFromSource":true,"saved":true,"sourceSize":{"x":178,"y":22},"rootRelativePath":"assets/1815e1b1-d408-46ba-9077-3afe4723b61f.png"},"9a18a540-6acb-45c7-acbd-bef492c349ef":{"name":"save_text_hover","sourceUrl":null,"frameSize":{"x":190,"y":34},"frameCount":1,"looping":true,"frameDelay":12,"version":"oOtS2T6cOzED7rdUoPLYjhPCVA6UtTEz","loadedFromSource":true,"saved":true,"sourceSize":{"x":190,"y":34},"rootRelativePath":"assets/9a18a540-6acb-45c7-acbd-bef492c349ef.png"},"e7f128aa-7cdb-441f-ba04-2bdfdeb742a2":{"name":"saveonly_text","sourceUrl":null,"frameSize":{"x":76,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"yeYC786NSDteQS_wkPPXpM3btJtXjjHn","loadedFromSource":true,"saved":true,"sourceSize":{"x":76,"y":22},"rootRelativePath":"assets/e7f128aa-7cdb-441f-ba04-2bdfdeb742a2.png"},"db548238-6bff-479f-8d10-868fad48c104":{"name":"cloudsave_text","sourceUrl":null,"frameSize":{"x":170,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"ARANFTZWtrft2ZIix7qHMinYY.sS1_vC","loadedFromSource":true,"saved":true,"sourceSize":{"x":170,"y":22},"rootRelativePath":"assets/db548238-6bff-479f-8d10-868fad48c104.png"},"cbc4b8a2-7438-4f25-b3eb-1f12e39699f4":{"name":"cloudload_text","sourceUrl":null,"frameSize":{"x":164,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"_3IgI7yIM1nG2Q_SOksybw8oafKVDUJo","loadedFromSource":true,"saved":true,"sourceSize":{"x":164,"y":22},"rootRelativePath":"assets/cbc4b8a2-7438-4f25-b3eb-1f12e39699f4.png"},"c00d55ff-3b8c-44ff-b15e-b1fb0456aa44":{"name":"achievement1_text","sourceUrl":null,"frameSize":{"x":274,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"39uXnuiH7Jtw4jE6EiqQp77ByRKbP72H","loadedFromSource":true,"saved":true,"sourceSize":{"x":274,"y":22},"rootRelativePath":"assets/c00d55ff-3b8c-44ff-b15e-b1fb0456aa44.png"},"3da37e8e-8431-4e1b-8dc8-7e900dddd836":{"name":"updates_text","sourceUrl":null,"frameSize":{"x":128,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"c9i5UqVCDEdv6bLI_7as4S4hs_dmS6KE","loadedFromSource":true,"saved":true,"sourceSize":{"x":128,"y":22},"rootRelativePath":"assets/3da37e8e-8431-4e1b-8dc8-7e900dddd836.png"},"f8d10153-c11c-4f52-bf37-1d512cd1b378":{"name":"updates_text_hover","sourceUrl":null,"frameSize":{"x":140,"y":34},"frameCount":1,"looping":true,"frameDelay":12,"version":"OB0HepBDCezURMwudkGxbqLnUTabnA_a","loadedFromSource":true,"saved":true,"sourceSize":{"x":140,"y":34},"rootRelativePath":"assets/f8d10153-c11c-4f52-bf37-1d512cd1b378.png"},"64dd5238-45b5-4cac-b916-586a38a119ba":{"name":"achievement_text","sourceUrl":null,"frameSize":{"x":236,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"JN.iA3kRcc6tkR1xjPYpKwNIKT57qBOd","loadedFromSource":true,"saved":true,"sourceSize":{"x":236,"y":22},"rootRelativePath":"assets/64dd5238-45b5-4cac-b916-586a38a119ba.png"},"dd70a6ec-91e6-4132-9dd0-e2a84512be1e":{"name":"achievement_text_hover","sourceUrl":null,"frameSize":{"x":248,"y":34},"frameCount":1,"looping":true,"frameDelay":12,"version":"oY0klz5N0.g0X.GkiUhrEl.Zvl2sduc5","loadedFromSource":true,"saved":true,"sourceSize":{"x":248,"y":34},"rootRelativePath":"assets/dd70a6ec-91e6-4132-9dd0-e2a84512be1e.png"},"1bc088ee-5058-4267-9bb7-794cddc84691":{"name":"gear","sourceUrl":"assets/v3/animations/R0Z_I10WAH2btnkFtaSIW5h5HGGoGzKX1ghda9KBWhE/1bc088ee-5058-4267-9bb7-794cddc84691.png","frameSize":{"x":58,"y":58},"frameCount":1,"looping":true,"frameDelay":4,"version":"c6f20fItW8rt8MYGsdgg1IDyWLpK6koP","loadedFromSource":true,"saved":true,"sourceSize":{"x":58,"y":58},"rootRelativePath":"assets/v3/animations/R0Z_I10WAH2btnkFtaSIW5h5HGGoGzKX1ghda9KBWhE/1bc088ee-5058-4267-9bb7-794cddc84691.png"},"941b9d40-c051-44c5-baf0-eaa30a5e0acb":{"name":"leave_text","sourceUrl":null,"frameSize":{"x":92,"y":22},"frameCount":1,"looping":true,"frameDelay":12,"version":"X2hsJxH_wEOiCtiRIHPJ2CAr6nkkhmy9","loadedFromSource":true,"saved":true,"sourceSize":{"x":92,"y":22},"rootRelativePath":"assets/941b9d40-c051-44c5-baf0-eaa30a5e0acb.png"},"d2ed2b38-8313-4096-840d-df1749aa2515":{"name":"danger","sourceUrl":null,"frameSize":{"x":20,"y":92},"frameCount":12,"looping":true,"frameDelay":2,"version":"Cm5zB7fLy_4CqotdBo6E6dkJnoj.xvtu","loadedFromSource":true,"saved":true,"sourceSize":{"x":140,"y":184},"rootRelativePath":"assets/d2ed2b38-8313-4096-840d-df1749aa2515.png"},"573459a4-dcda-4c05-b596-43496618def7":{"name":"danger_still","sourceUrl":null,"frameSize":{"x":20,"y":68},"frameCount":1,"looping":true,"frameDelay":12,"version":"1wxcwG9V4h4B4TM8X279COvzVlMLC8wx","loadedFromSource":true,"saved":true,"sourceSize":{"x":20,"y":68},"rootRelativePath":"assets/573459a4-dcda-4c05-b596-43496618def7.png"},"cd62a665-d18d-4e9f-b61b-f85673f67dcf":{"name":"axe","sourceUrl":null,"frameSize":{"x":62,"y":56},"frameCount":1,"looping":true,"frameDelay":12,"version":"8Qvw4pu9V8MJtcWjMBRjdQs52G2DOOmb","categories":["tools"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":62,"y":56},"rootRelativePath":"assets/cd62a665-d18d-4e9f-b61b-f85673f67dcf.png"},"d24e8b78-61d9-4c4a-9ccc-3aace7558358":{"name":"axe_copy1","sourceUrl":null,"frameSize":{"x":55,"y":48},"frameCount":1,"looping":true,"frameDelay":12,"version":"ntrQTgzdsnEVp3WFanFVFaff4HZKGVBn","categories":["tools"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":55,"y":48},"rootRelativePath":"assets/d24e8b78-61d9-4c4a-9ccc-3aace7558358.png"},"cf9f03a6-6c78-4e10-a576-0ee43e43434b":{"name":"arrow_right","sourceUrl":null,"frameSize":{"x":23,"y":24},"frameCount":12,"looping":true,"frameDelay":3,"version":"cBOlwrnKorYBP1gC58SdlcIGSOUL_fOl","loadedFromSource":true,"saved":true,"sourceSize":{"x":92,"y":72},"rootRelativePath":"assets/cf9f03a6-6c78-4e10-a576-0ee43e43434b.png"},"1c637e5a-983c-4bbe-80ab-f4a683cca497":{"name":"arrow_left","sourceUrl":null,"frameSize":{"x":23,"y":24},"frameCount":12,"looping":true,"frameDelay":3,"version":"e0HbkNlVlRGA2EuCs3VAe9bmzIefx1D5","loadedFromSource":true,"saved":true,"sourceSize":{"x":92,"y":72},"rootRelativePath":"assets/1c637e5a-983c-4bbe-80ab-f4a683cca497.png"},"9c4b283f-b0fb-4c00-8127-428c99e75992":{"name":"black_cloud_test","sourceUrl":"assets/v3/animations/CNx3Tk2IYIT0Rb0gYcDKumbqsVEEZ8Xnp38_7kr6xsY/9c4b283f-b0fb-4c00-8127-428c99e75992.png","frameSize":{"x":260,"y":134},"frameCount":1,"looping":true,"frameDelay":4,"version":"W5y0DeMXYD.njodSlVdiSY_zR7OtHK9V","loadedFromSource":true,"saved":true,"sourceSize":{"x":260,"y":134},"rootRelativePath":"assets/v3/animations/CNx3Tk2IYIT0Rb0gYcDKumbqsVEEZ8Xnp38_7kr6xsY/9c4b283f-b0fb-4c00-8127-428c99e75992.png"},"7d095ddd-f4d3-4ab1-8486-29c186d832a8":{"name":"game_over_test","sourceUrl":null,"frameSize":{"x":260,"y":49},"frameCount":1,"looping":true,"frameDelay":12,"version":"kY6mZ7KsjkVyjczLrBCt72D6t4NYaynk","loadedFromSource":true,"saved":true,"sourceSize":{"x":260,"y":49},"rootRelativePath":"assets/7d095ddd-f4d3-4ab1-8486-29c186d832a8.png"},"f410964f-35a8-4666-b172-0f6eb8ace94b":{"name":"star_test","sourceUrl":null,"frameSize":{"x":30,"y":30},"frameCount":4,"looping":true,"frameDelay":12,"version":"qG1YDGprSmpCj3pPaEG4FNTYLrveagZt","loadedFromSource":true,"saved":true,"sourceSize":{"x":60,"y":60},"rootRelativePath":"assets/f410964f-35a8-4666-b172-0f6eb8ace94b.png"}}};
   var orderedKeys = animationListJSON.orderedKeys;
   var allAnimationsSingleFrame = false;
   orderedKeys.forEach(function (key) {
@@ -118,15 +118,15 @@ var titlechr = createSprite(60, 375);
 
 //The Start Button On The Main Menu
 //Used In PE2
-var startbutton = createSprite(350, 200);
+var startbutton = createSprite(344, 160);
 
 //The Controls Button On The Main Menu
 //Used In Both PE1 And PE2
-var controlsbutton = createSprite(322, 260);
+var controlsbutton = createSprite(316, 220);
 
 //The Options Button On The Main Menu
 //Used In PE2
-var optionsbutton = createSprite(332, 230);
+var optionsbutton = createSprite(326, 190);
 
 //The Back Button Used For Multiple Menu Interfaces
 //Used In Both PE1 And PE2
@@ -175,7 +175,7 @@ var gameovertext = createSprite(200, 200);
 
 //Button On Main Menu That When Pressed, Shows Achievements
 //Used In PE2
-var achievementsbutton = createSprite(278, 290);
+var achievementsbutton = createSprite(272, 250);
 
 //Achievement Icons In Achievements Menu
 //Used In PE2
@@ -196,7 +196,7 @@ var achievementanimspr = createSprite(450, 50);
 
 //Save And Load Button On Main Menu
 //Used In PE2
-var saveloadbutton = createSprite(307, 320);
+var saveloadbutton = createSprite(300, 280);
 
 //Save Button On Save And Load Menu
 //Used In PE2
@@ -229,6 +229,10 @@ var saveiconcloud = createSprite(200, 150);
 //Load Cloud Sprite Used On Save And Load Menu
 //Used In PE2
 var loadiconcloud = createSprite(200, 350);
+
+//Save Button On Save And Load Menu
+//Used In PE2
+var updatesbutton = createSprite(326, 310);
 
 //Variables
 
@@ -279,15 +283,15 @@ var achievementAnimStep2 = 0;
 var saveFile = 0;
 var saveFileNonLocal;
 var saveMenuState = 0;
+var versionNumber = "Stick Infinite Runner V1.0.0";
 getKeyValue(encodeURIComponent(getUserId()), function(saveFileCloud) {
   saveFileNonLocal = saveFileCloud;
 });
 
 //Misc Variables
-var buildn = 9999;
+var buildn = 3011;
 var debugvar = 0;
 var isMuted = 0;
-var storesecondsvalue = 0;
 
 //Animations
 player.setAnimation("stick_still");
@@ -299,7 +303,7 @@ platform05.setAnimation("platform");
 water.setAnimation("water");
 coin.setAnimation("coin_spin");
 titletext.setAnimation("title_text");
-titlebackground.setAnimation("BackgroundAnimation_copy_1");
+titlebackground.setAnimation("BackgroundAnimation_sm");
 titlechr.setAnimation("title_character");
 startbutton.setAnimation("start_text");
 controlsbutton.setAnimation("control_text");
@@ -333,12 +337,13 @@ savebuttoncloud.setAnimation("cloudsave_text");
 loadbuttoncloud.setAnimation("cloudload_text");
 saveiconcloud.setAnimation("save_icon_cloud");
 loadiconcloud.setAnimation("load_icon_cloud");
+updatesbutton.setAnimation("updates_text");
 
 //Visibility, Scaling, and Other Stuff
 player.setCollider("rectangle", -4, -8, 50, 151);
 player.scale = 0.5;
 coin.scale = 0.5;
-titlebackground.scale = 0.35;
+titlebackground.scale = 1;
 pausescreenbackground.scale = 0.5;
 optionstoggle01.scale = 0.35;
 optionstoggle02.scale = 0.35;
@@ -389,6 +394,7 @@ savebuttoncloud.visible = 0;
 loadbuttoncloud.visible = 0;
 saveiconcloud.visible = 0;
 loadiconcloud.visible = 0;
+updatesbutton.visible = 0;
 
 //PE1 Backwards Compatibility Layer
 
@@ -551,7 +557,7 @@ function draw() {
         //Example: The Axe Appearing At A Certain Point
         GameplayChanger();
       }
-      //Used To Pause The Game
+      //This Is Used To Pause The Game
       if (keyWentDown("enter")) {
         pauseFunction();
       }
@@ -592,6 +598,7 @@ function draw() {
       text("Water X Pos: " + Math.round(water.x), 5, 90);
       text("Achievement Step2: " + achievementAnimStep2, 5, 105);
       text("High Score: " + highScore, 5, 120);
+      text("Obstacle Timer: " + obstacleTimer, 5, 135);
       //2 minutes 10 seconds
     } else {
       fill("white");
@@ -618,7 +625,7 @@ function draw() {
     fill("grey");
     textFont("Arial");
     textSize(12);
-    text("Platform Engine 2 V0.7, SIR V0.9", 218, 15);
+    text("Platform Engine 2 V0.7, SIR 1.0.0", 218, 15);
     text("Build Number " + buildn, 218, 30);
     text("Current Framerate: " + Math.round(World.frameRate), 218, 45);
     text("Step: " + currentStep, 218, 60);
@@ -1233,6 +1240,7 @@ function GameOver() {
       if (mousePressedOver(menubutton)) {
         currentMenu = "MainMenu";
         ResetGameState();
+        ResetMenuVisibilityState(1);
         ResetMenuState();
       }
     }
@@ -1365,6 +1373,7 @@ function ResetMenuState() {
   optionsbutton.visible = 1;
   saveloadbutton.visible = 1;
   achievementsbutton.visible = 1;
+  updatesbutton.visible = 1;
   titlebackground.visible = 1;
   titletext.visible = 1;
   titlechr.visible = 1;
@@ -1383,8 +1392,9 @@ function ResetMenuState() {
   gameovertext.visible = 0;
   dangericon.visible = 0;
   throwingaxe.visible = 0;
-  storesecondsvalue = 20;
   titletext.rotation = 0;
+  backbutton.velocityX = 0;
+  backbutton.velocityY = 0;
 }
 
 //Function For Resetting Visibility Of Everything In Menus
@@ -1398,6 +1408,8 @@ function ResetMenuVisibilityState(resetstate){
     optionsbutton.visible = 0;
     saveloadbutton.visible = 0;
     achievementsbutton.visible = 0;
+    titlebackground.visible = 0;
+    updatesbutton.visible = 0;
   }
   if(resetstate == 1){
     startbutton.visible = 1;
@@ -1407,8 +1419,9 @@ function ResetMenuVisibilityState(resetstate){
     optionsbutton.visible = 1;
     achievementsbutton.visible = 1;
     saveloadbutton.visible = 1;
+    titlebackground.visible = 1;
+    updatesbutton.visible = 1;
   }
-  storesecondsvalue = 20;
 }
 
 //Loading Game Function Used On Save & Load Menu
@@ -1487,99 +1500,134 @@ function Startup1() {
     background("grey");
     startupspr.destroy();
     runsonpe2.destroy();
-    titletext.visible = 1;
-    titlebackground.visible = 1;
-    startbutton.visible = 1;
-    titlechr.visible = 1;
-    controlsbutton.visible = 1;
-    optionsbutton.visible = 1;
-    achievementsbutton.visible = 1;
-    saveloadbutton.visible = 1;
+    ResetMenuVisibilityState(1);
     currentMenu = "MainMenu";
     currentStep = "MainMenu";
   }
 }
 
-//Runs Main Menu, Some of it is Ported Over From PE1
+//Runs Main Menu, Some Of It Is Ported Over From PE1
 
 function MainMenu() {
   background(rgb(100, 98, 255));
-  //To Remove in Future Update
-  if (debugvar == 0){
-    if (keyWentDown("space")) {
-        debugvar = 1;
-    }
-  }
-  if (debugvar == 1){
-    if (keyWentDown("up")) {
-      debugvar = 2;
-    }
-  }
-  if (debugvar == 2){
-    if (keyWentDown("down")) {
-      debugvar = 3;
-    }
-  }
-  if (debugvar == 3){
-    if (keyWentDown("left")) {
-      debugvar = 4;
-    }
-  }
-  if (debugvar == 4){
-    if (keyWentDown("right")) {
-      debugvar = 5;
-      if (isMuted == 0) {
-        playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
-      }
-    }
-  }
+  
+  //This Step Means Its Running The Title Screen/Main Menu
+  //In Here, You Can Click One Of The Buttons To Go To A
+  //Different Menu
+  //Example: Clicking The Start Button Will Transition Into
+  //The Actual Game (currentMenu == "Game")
   if (currentStep == "MainMenu") {
-    if(storesecondsvalue == 0){
-      if (mousePressedOver(startbutton)) {
-        startbutton.velocityX = -4;
-        currentStep = "GameStartTransition";
-      }
-      if (mousePressedOver(controlsbutton)) {
-        controlsbutton.velocityX = -4;
-        currentStep = "ControlsMenuTransition";
-      }
-      if (mousePressedOver(optionsbutton)) {
-        optionsbutton.velocityX = -4;
-        currentStep = "OptionsMenuTransition";
-      }
-      if (mousePressedOver(achievementsbutton)) {
-        achievementsbutton.velocityX = -4;
-        currentStep = "AchievementsMenuTransition";
-      }
-      if (mousePressedOver(saveloadbutton)) {
-        saveloadbutton.velocityX = -4;
-        currentStep = "SaveLoadMenuTransition";
-      }
+    //This Section Is To Handle The Hover Over Text Sprite
+    //Variant Of Every Text Sprite On The Menu
+    if(mouseIsOver(startbutton)){
+      startbutton.setAnimation("start_text_hover");
     } else {
-      storesecondsvalue = storesecondsvalue - 1;
+      startbutton.setAnimation("start_text");
+    }
+    if(mouseIsOver(controlsbutton)){
+      controlsbutton.setAnimation("control_text_hover");
+    } else {
+      controlsbutton.setAnimation("control_text");
+    }
+    if(mouseIsOver(achievementsbutton)){
+      achievementsbutton.setAnimation("achievement_text_hover");
+    } else {
+      achievementsbutton.setAnimation("achievement_text");
+    }
+    if(mouseIsOver(optionsbutton)){
+      optionsbutton.setAnimation("options_text_hover");
+    } else {
+      optionsbutton.setAnimation("options_text");
+    }
+    if(mouseIsOver(updatesbutton)){
+      updatesbutton.setAnimation("updates_text_hover");
+    } else {
+      updatesbutton.setAnimation("updates_text");
+    }
+    if(mouseIsOver(saveloadbutton)){
+      saveloadbutton.setAnimation("save_text_hover");
+    } else {
+      saveloadbutton.setAnimation("save_text");
+    }
+    
+    //Here's The Code For Transitioning To The Next Step
+    if (mouseWentDown() && mousePressedOver(startbutton)) {
+      startbutton.velocityX = -4;
+      startbutton.setAnimation("start_text");
+      currentStep = "GameStartTransition";
+    }
+    if (mouseWentDown() && mousePressedOver(controlsbutton)) {
+      controlsbutton.velocityX = -4;
+      controlsbutton.setAnimation("control_text");
+      currentStep = "ControlsMenuTransition";
+    }
+    if (mouseWentDown() && mousePressedOver(optionsbutton)) {
+      optionsbutton.velocityX = -4;
+      optionsbutton.setAnimation("options_text");
+      currentStep = "OptionsMenuTransition";
+    }
+    if (mouseWentDown() && mousePressedOver(achievementsbutton)) {
+      achievementsbutton.velocityX = -4;
+      achievementsbutton.setAnimation("achievement_text");
+      currentStep = "AchievementsMenuTransition";
+    }
+    if (mouseWentDown() && mousePressedOver(saveloadbutton)) {
+      saveloadbutton.velocityX = -4;
+      saveloadbutton.setAnimation("save_text");
+      currentStep = "SaveLoadMenuTransition";
+    }
+    if (mouseWentDown() && mousePressedOver(updatesbutton)){
+      updatesbutton.velocityX = -4;
+      updatesbutton.setAnimation("updates_text");
+      currentStep = "UpdatesMenuTransition";
+    }
+    
+    
+    //Checks To See If Current Step Has Been Updated
+    //If It Has, Don't Display Version Text In Corner So
+    //The Text Isnt Duplicated On Accident
+    if(currentStep == "MainMenu"){
+      fill("white");
+      textSize(16);
+      text(versionNumber, 200, 390);
     }
   }
+  
+  //Transition Steps Are Related To Transitioning From 
+  //One Menu To Another
+  
+  //GameStartTransition Lets The Start Text Move And 
+  //Transition Into Gameplay
   if (currentStep == "GameStartTransition") {
+    fill("white");
+    textSize(16);
+    text(versionNumber, 200, 390);
     startbutton.velocityX = startbutton.velocityX + 0.2;
-    if (startbutton.x >= 470) {
+    if (startbutton.x >= 520) {
       startbutton.velocityX = 0;
       startbutton.visible = 0;
-      startbutton.x = 350;
-      titlebackground.visible = 0;
+      startbutton.x = 344;
       ResetMenuVisibilityState(0);
       ResetGameState();
       currentMenu = "Game";
       currentStep = "Gameplay";
     }
   }
+  
+  //ControlsMenuTransition Lets The Controls Text Move And 
+  //Transition To ControlsMenuAnimation1
   if (currentStep == "ControlsMenuTransition") {
+    fill("white");
+    textSize(16);
+    text(versionNumber, 200, 390);
     controlsbutton.velocityX = controlsbutton.velocityX + 0.2;
-    if (controlsbutton.x >= 485) {
+    if (controlsbutton.x >= 520) {
       controlsbutton.velocityX = 0;
-      controlsbutton.x = 322;
+      controlsbutton.x = 316;
       ResetMenuVisibilityState(0);
+      titlebackground.visible = 1;
       controlsmenu.x = -200;
-      controlsmenu.velocityX = 12.5;
+      controlsmenu.velocityX = 18;
       controlsmenu.visible = 1;
       backbutton.visible = 1;
       backbutton.x = 435;
@@ -1587,8 +1635,126 @@ function MainMenu() {
       currentStep = "ControlsMenuAnimation1";
     }
   }
+  
+  //OptionsMenuTransition Lets The Options Text Move And 
+  //Transition To OptionsMenuAnimation1
+  if(currentStep == "OptionsMenuTransition"){
+    fill("white");
+    textSize(16);
+    text(versionNumber, 200, 390);
+    optionsbutton.velocityX = optionsbutton.velocityX + 0.2;
+    if (optionsbutton.x >= 520) {
+      optionsbutton.velocityX = 0;
+      optionsbutton.x = 326;
+      ResetMenuVisibilityState(0);
+      titlebackground.visible = 1;
+      backbutton.visible = 1;
+      optionstoggle01.visible = 1;
+      optionstoggle02.visible = 1;
+      backbutton.y = 350;
+      if(isMuted == 0){
+        optionstoggle01.setAnimation("switch_off");
+      }
+      if(isMuted == 1){
+        optionstoggle01.setAnimation("switch_on");
+      }
+      backbutton.x = 475;
+      backbutton.velocityX = -7.5;
+      currentStep = "OptionsMenuAnimation1";
+    }
+  }
+  
+  //AchievementsMenuTransition Lets The Achievements Text Move And 
+  //Transition To AchievementsMenuAnimation1
+  if(currentStep == "AchievementsMenuTransition"){
+    fill("white");
+    textSize(16);
+    text(versionNumber, 200, 390);
+    achievementsbutton.velocityX = achievementsbutton.velocityX + 0.2;
+    if(achievementsbutton.x >= 520){
+      achievementsbutton.x = 272;
+      achievementsbutton.velocityX = 0;
+      ResetMenuVisibilityState(0);
+      titlebackground02.visible = 1;
+      achievement01.visible = 1;
+      achievement02.visible = 1;
+      achievement03.visible = 1;
+      achievement04.visible = 1;
+      backbutton.visible = 1;
+      backbutton.x = 470;
+      backbutton.y = 350;
+      backbutton.velocityX = -7;
+      currentStep = "AchievementsMenuAnimation1";
+    }
+  }
+  
+  //SaveLoadMenuTransition Lets The Save N Load Text Move And 
+  //Transition To SaveLoadMenuAnimation1
+  if(currentStep == "SaveLoadMenuTransition"){
+    fill("white");
+    textSize(16);
+    text(versionNumber, 200, 390);
+    saveloadbutton.velocityX = saveloadbutton.velocityX + 0.2;
+    if(saveloadbutton.x >= 520){
+      ResetMenuVisibilityState(0);
+      savebutton.visible = 1;
+      loadbutton.visible = 1;
+      savebuttoncloud.visible = 1;
+      loadbuttoncloud.visible = 1;
+      backbutton.visible = 1;
+      saveicon.visible = 1;
+      loadicon.visible = 1;
+      saveiconcloud.visible = 1;
+      loadiconcloud.visible = 1;
+      backbutton.x = 200;
+      backbutton.y = -80;
+      savebutton.x = -20;
+      loadbutton.x = -20;
+      savebuttoncloud.x = 420;
+      loadbuttoncloud.x = 420;
+      saveicon.x = -110;
+      loadicon.x = -110;
+      saveiconcloud.x = 510;
+      loadiconcloud.x = 510;
+      saveicon.velocityX = 10;
+      loadicon.velocityX = 10;
+      savebutton.velocityX = 7;
+      loadbutton.velocityX = 7;
+      saveiconcloud.velocityX = -10;
+      loadiconcloud.velocityX = -10;
+      savebuttoncloud.velocityX = -7;
+      loadbuttoncloud.velocityX = -7;
+      backbutton.velocityY = 7;
+      saveloadbutton.velocityX = 0;
+      saveloadbutton.x = 300;
+      currentStep = "SaveLoadMenuAnimation1";
+    }
+  }
+  
+  //UpdatesTransition Lets The Updates Text Move And 
+  //Transition To UpdatesMenuAnimation1
+  if(currentStep == "UpdatesMenuTransition"){
+    fill("white");
+    textSize(16);
+    text(versionNumber, 200, 390);
+    updatesbutton.velocityX = updatesbutton.velocityX + 0.2;
+    if(updatesbutton.x >= 520){
+      updatesbutton.x = 326;
+      updatesbutton.velocityX = 0;
+      ResetMenuVisibilityState(0);
+      backbutton.visible = 1;
+      backbutton.x = -70;
+      backbutton.y = 350;
+      backbutton.velocityX = 7;
+      currentStep = "UpdatesMenuAnimation1";
+      }
+    }
+  
+  //Menu Animations Are The Animations That Happen Before
+  //Menu Displays And Works
+  //Example: Back Button Moving Into Corner Of Screen
   if (currentStep == "ControlsMenuAnimation1") {
-    controlsmenu.velocityX = controlsmenu.velocityX - 0.2;
+    controlsmenu.velocityX = controlsmenu.velocityX - 0.4;
     if(controlsmenu.velocityX <= 0){
       controlsmenu.velocityX = 0;
       backbutton.velocityX = -7.5;
@@ -1599,6 +1765,7 @@ function MainMenu() {
     backbutton.velocityX = backbutton.velocityX + 0.2;
     if(backbutton.velocityX >= 0){
       backbutton.velocityX = 0;
+      backbutton.velocityY = 0;
       currentStep = "ControlsMenu";
     }
   }
@@ -1608,36 +1775,36 @@ function MainMenu() {
     }
   }
   if(currentStep == "ControlsMenuAnimation3"){
-    backbutton.velocityX = backbutton.velocityX + 0.2;
-    controlsmenu.velocityX = controlsmenu.velocityX - 0.2;
-    if(controlsmenu.x <= -200 && backbutton.x >= 430){
+    backbutton.velocityX = backbutton.velocityX + 0.25;
+    controlsmenu.velocityX = controlsmenu.velocityX - 0.4;
+    if(controlsmenu.x <= -400 && backbutton.x >= 430){
       controlsmenu.x = -50;
       backbutton.x = 435;
       controlsmenu.velocityX = 0;
       backbutton.velocityX = 0;
+      backbutton.velocityY = 0;
       backbutton.visible = 0;
       controlsmenu.visible = 0;
       ResetMenuVisibilityState(1);
+      ResetMenuState();
       currentStep = "MainMenu";
     }
   }
-  if(currentStep == "OptionsMenuTransition"){
-    optionsbutton.velocityX = optionsbutton.velocityX + 0.2;
-    if (optionsbutton.x >= 485) {
-      optionsbutton.velocityX = 0;
-      optionsbutton.x = 332;
-      ResetMenuVisibilityState(0);
-      backbutton.visible = 1;
-      optionstoggle01.visible = 1;
-      optionstoggle02.visible = 1;
-      backbutton.x = 350;
-      backbutton.y = 350;
-      if(isMuted == 0){
-        optionstoggle01.setAnimation("switch_off");
-      }
-      if(isMuted == 1){
-        optionstoggle01.setAnimation("switch_on");
-      }
+  
+  
+  if(currentStep == "OptionsMenuAnimation1"){
+    fill("black");
+    textSize(20);
+    text("Mute All In Game Audio?", 12, 25);
+    text("Play Game In PE 1 Mode?", 12, 75);
+    text("", 12, 125);
+    text("", 12, 175);
+    text("", 12, 225);
+    text("", 12, 275);
+    backbutton.velocityX = backbutton.velocityX + 0.2;
+    if(backbutton.velocityX >= 0){
+      backbutton.velocityX = 0;
+      backbutton.velocityY = 0;
       currentStep = "OptionsMenu";
     }
   }
@@ -1651,11 +1818,7 @@ function MainMenu() {
     text("", 12, 225);
     text("", 12, 275);
     if(mousePressedOver(backbutton)){
-      ResetMenuVisibilityState(1);
-      backbutton.visible = 0;
-      optionstoggle01.visible = 0;
-      optionstoggle02.visible = 0;
-      currentStep = "MainMenu";
+      currentStep = "OptionsMenuAnimation2";
     }
     if(mouseWentDown() && mousePressedOver(optionstoggle01)){
       if (isMuted == 0) {
@@ -1673,6 +1836,27 @@ function MainMenu() {
       currentStep = "OptionsMenuConfirmPE1";
     }
   }
+  
+  if(currentStep == "OptionsMenuAnimation2"){
+    fill("black");
+    textSize(20);
+    text("Mute All In Game Audio?", 12, 25);
+    text("Play Game In PE 1 Mode?", 12, 75);
+    text("", 12, 125);
+    text("", 12, 175);
+    text("", 12, 225);
+    text("", 12, 275);
+    backbutton.velocityX = backbutton.velocityX + 0.2;
+    if(backbutton.x >= 500){
+      ResetMenuVisibilityState(1);
+      ResetMenuState();
+      backbutton.visible = 0;
+      optionstoggle01.visible = 0;
+      optionstoggle02.visible = 0;
+      currentStep = "MainMenu";
+    }
+  }
+  
   if(currentStep == "OptionsMenuConfirmPE1"){
     fill("black");
     textSize(20);
@@ -1701,26 +1885,7 @@ function MainMenu() {
       currentMenu = "V6 Comp";
     }
   }
-  if(currentStep == "AchievementsMenuTransition"){
-    achievementsbutton.velocityX = achievementsbutton.velocityX + 0.2;
-    if(achievementsbutton.x >= 517){
-      achievementsbutton.x = 278;
-      achievementsbutton.y = 290;
-      achievementsbutton.velocityX = 0;
-      ResetMenuVisibilityState(0);
-      titlebackground.visible = 0;
-      titlebackground02.visible = 1;
-      achievement01.visible = 1;
-      achievement02.visible = 1;
-      achievement03.visible = 1;
-      achievement04.visible = 1;
-      backbutton.visible = 1;
-      backbutton.x = 470;
-      backbutton.y = 350;
-      backbutton.velocityX = -7;
-      currentStep = "AchievementsMenuAnimation1";
-    }
-  }
+  
   if(currentStep == "AchievementsMenuAnimation1"){
     fill("black");
     textSize(20);
@@ -1738,6 +1903,7 @@ function MainMenu() {
     backbutton.velocityX = backbutton.velocityX + 0.2;
     if(backbutton.velocityX >= 0){
       backbutton.velocityX = 0;
+      backbutton.velocityY = 0;
       currentStep = "AchievementsMenu";
     }
   }
@@ -1774,57 +1940,21 @@ function MainMenu() {
     text("Get To A Score Of 10 Or More", 110, 80);
     text("Get To A Score Of 50 Or More", 110, 230);
     text("Get To A Score Of 100 Or More", 110, 380);
-    if(backbutton.x >= 450){
+    if(backbutton.x >= 500){
       titlebackground02.visible = 0;
       achievement01.visible = 0;
       achievement02.visible = 0;
       achievement03.visible = 0;
       achievement04.visible = 0;
       backbutton.visible = 0;
-      titlebackground.visible = 1;
       ResetMenuVisibilityState(1);
+      ResetMenuState();
       backbutton.velocityX = 0;
+      backbutton.velocityY = 0;
       currentStep = "MainMenu";
     }
   }
-  if(currentStep == "SaveLoadMenuTransition"){
-    saveloadbutton.velocityX = saveloadbutton.velocityX + 0.2;
-    if(saveloadbutton.x >= 480){
-      ResetMenuVisibilityState(0);
-      titlebackground.visible = 0;
-      savebutton.visible = 1;
-      loadbutton.visible = 1;
-      savebuttoncloud.visible = 1;
-      loadbuttoncloud.visible = 1;
-      backbutton.visible = 1;
-      saveicon.visible = 1;
-      loadicon.visible = 1;
-      saveiconcloud.visible = 1;
-      loadiconcloud.visible = 1;
-      backbutton.x = 200;
-      backbutton.y = -80;
-      savebutton.x = -20;
-      loadbutton.x = -20;
-      savebuttoncloud.x = 420;
-      loadbuttoncloud.x = 420;
-      saveicon.x = -110;
-      loadicon.x = -110;
-      saveiconcloud.x = 510;
-      loadiconcloud.x = 510;
-      saveicon.velocityX = 10;
-      loadicon.velocityX = 10;
-      savebutton.velocityX = 7;
-      loadbutton.velocityX = 7;
-      saveiconcloud.velocityX = -10;
-      loadiconcloud.velocityX = -10;
-      savebuttoncloud.velocityX = -7;
-      loadbuttoncloud.velocityX = -7;
-      backbutton.velocityY = 7;
-      saveloadbutton.velocityX = 0;
-      saveloadbutton.x = 307;
-      currentStep = "SaveLoadMenuAnimation1";
-    }
-  }
+  
   if(currentStep == "SaveLoadMenuAnimation1"){
     saveicon.velocityX = saveicon.velocityX - 0.24;
     loadicon.velocityX = loadicon.velocityX - 0.24;
@@ -1939,7 +2069,7 @@ function MainMenu() {
     backbutton.velocityY = backbutton.velocityY - 0.2;
     if(backbutton.y < -150 && loadbutton.x <= -50 && saveicon.x <= -100){
       ResetMenuVisibilityState(1);
-      titlebackground.visible = 1;
+      ResetMenuState();
       backbutton.visible = 0;
       savebutton.visible = 0;
       loadbutton.visible = 0;
@@ -1957,8 +2087,53 @@ function MainMenu() {
       savebuttoncloud.velocityX = 0;
       saveiconcloud.velocityX = 0;
       loadiconcloud.velocityX = 0;
+      backbutton.velocityX = 0;
       backbutton.velocityY = 0;
       currentStep = "MainMenu";                                          
+    }
+  }
+  if(currentStep == "UpdatesMenuAnimation1"){
+    backbutton.velocityX = backbutton.velocityX - 0.2;
+    textSize(16);
+    fill("black");
+    text("Current Version: 1.0.0", 5, 20);
+    textSize(14);
+    text("Hello New Players!", 5, 50);
+    text("Welcome To Stick Infinite Runner.", 5, 70);
+    text("This Is The Release Version Of The Game,", 5, 90);
+    text("Therefore There Are No Updates To Talk About Yet.", 5, 110);
+    text("I Hope You Have Fun Playing Though.", 5, 130);
+    text("", 5, 150);
+    text("", 5, 170);
+    text("", 5, 190);
+    text("", 5, 210);
+    text("", 5, 230);
+    text(" - Dem Apples, The Creator Of The Game", 130, 390);
+    if(backbutton.velocityX <= 0){
+      currentStep = "UpdatesMenuAnimation2";
+    }
+  }
+  if(currentStep == "UpdatesMenuAnimation2"){
+    textSize(16);
+    fill("black");
+    text("Current Version: 1.0.0", 5, 20);
+    textSize(14);
+    text("Hello New Players!", 5, 50);
+    text("Welcome To Stick Infinite Runner.", 5, 70);
+    text("This Is The Release Version Of The Game,", 5, 90);
+    text("Therefore There Are No Updates To Talk About Yet.", 5, 110);
+    text("I Hope You Have Fun Playing Though.", 5, 130);
+    text("", 5, 150);
+    text("", 5, 170);
+    text("", 5, 190);
+    text("", 5, 210);
+    text("", 5, 230);
+    text(" - Dem Apples, The Creator Of The Game", 130, 390);
+    if(mousePressedOver(backbutton)){
+      ResetMenuVisibilityState();
+      ResetMenuState();
+      backbutton.visible = 0;
+      currentStep = "MainMenu";
     }
   }
 }
@@ -2064,7 +2239,9 @@ function AchievementTracker() {
   //Achievement1Tracker To 2
   if (score == 10) {
     if (achievement1tracker == 0) {
-      playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
+      if (isMuted == 0) {
+        playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
+      }
       achievement1tracker = 1;
       achievementanimspr.setAnimation("Achievement1_complete");
       achievementanimspr.velocityX = -7;
@@ -2075,7 +2252,9 @@ function AchievementTracker() {
   //Achievement2Tracker To 2
   if (score == 50) {
     if(achievement2tracker == 0){
-      playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
+      if (isMuted == 0) {
+        playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
+      }
       achievement2tracker = 1;
       achievementanimspr.setAnimation("Achievement2_complete");
       achievementanimspr.velocityX = -7;
@@ -2086,7 +2265,9 @@ function AchievementTracker() {
   //Achievement3Tracker To 2
   if (score == 100) {
     if(achievement3tracker == 0){
-      playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
+      if(isMuted == 0){
+        playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
+      }
       achievement3tracker = 1;
       achievementanimspr.setAnimation("Achievement3_complete");
       achievementanimspr.velocityX = -7;
@@ -2156,16 +2337,13 @@ function GameplayChanger(){
   }
   if(level >= 7){
     //Clone Of Obstacle01
-  }
-  if(level >= 10){
     //Function For Grey Coin Goes Here
   }
   if(level >= 15){
     //Variable For Water Moving Faster Goes Here
   }
   if(level >= 20){
-    //Variable For Water Moving Even Faster & Faster Obstacle
-    //Goes Here
+    //Variable For Water Moving Even Faster Goes Here
   }
 }
 
@@ -2213,6 +2391,9 @@ function Obstacle1(){
     if(obstacleTimer == 0){
       dangericon.velocityY = 0;
       dangericon.setAnimation("danger");
+      if(isMuted == 0){
+        playSound("assets/category_alerts/vibrant_game_negative_affirmation.mp3", false);
+      }
       gameplayStep = 2;
       obstacleTimer = 100;
     }
@@ -2227,6 +2408,9 @@ function Obstacle1(){
       throwingaxe.visible = 1;
       throwingaxe.y = dangericon.y;
       throwingaxe.x = dangericon.x + 75;
+      if(isMuted == 0){
+        playSound("assets/category_alerts/vibrant_game_negative_alert.mp3", false);
+      }
       if(level > 5){
         throwingaxe.velocityX = - 2.5;
       } else {
@@ -2252,7 +2436,7 @@ function Obstacle1(){
       //Detects How Far Into The Game You Are And
       //Changes The Amount Of Time Between Resets
       //Based On That
-      if (level < 5) {
+      if (level <= 4 && level < 5) {
         obstacleTimer = randomNumber(2000, 2250);
       }
       if (level >= 5 && level <= 6) {
@@ -2286,7 +2470,7 @@ function SunAndMoonSetPosition() {
 }
 
 //PE1 Backwards Compatability Mode
-//###WARNING Old Code From 2020, Very Messy###
+//###WARNING Old Code From 2020 and OLDER, Very Messy###
 //Any Changes Made Here Will Not Affect the Normal Game
 //---------------------------------------------------------------
 //ONLY EDIT ANY CODE BEYOND HERE IF YOU REALLY
@@ -2294,12 +2478,9 @@ function SunAndMoonSetPosition() {
 //---------------------------------------------------------------
 
 function BackwardsCompatibleBuildv065() {
-  //Welcome To Hell
-  //AKA Messy Version 0.65 (0.66(0.67(0.68))) Code
+  //Welcome To Messy Version 0.65 (0.66(0.67(0.68))) Code
   //This Took Mutiple Days To Comment And Figure Out How Any
   //Of This Even Kinda Works
-  //Dont Bother With Trying To Edit This
-  //Please, You Will Hurt Yourself
   //If Your Just Here To See My Suffering with Trying
   //To Learn How My Own Code Works, Be My Guest
   //Good Luck
@@ -2341,7 +2522,6 @@ function BackwardsCompatibleBuildv065() {
     camera.x = player.x;
     camera.y = player.y;
   }
-  //... Was I On Cr**k While Writing This?
   //... WHY IS ALL THIS STUFF IN THE DRAW FUNCTION!??!?
   //Checks If Startvar = 0 And If It Does, Run Main Menu
   if (startvar == 0) {
@@ -2353,6 +2533,7 @@ function BackwardsCompatibleBuildv065() {
     //Store Button And This Caused Issues When
     //Code.Org Still Detected Me Clicking It And Sent
     //Me To The Store
+    //Sidenote From Dev: Accidentally Fixed This Bug While Commenting On It
     if (pausetimerset == 0) {
       pausetimer2 = pausetimer2 + 1;
       if (pausetimer2 == 30) {
@@ -2384,16 +2565,20 @@ function BackwardsCompatibleBuildv065() {
     if (debugvar == 4){
     if (keyWentDown("right")) {
       debugvar = 5;
-      playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
+      if(isMuted == 0){
+        playSound("assets/category_achievements/lighthearted_bonus_objective_1.mp3", false);
+      }
     }
     }
     //This Was Used For When Currency In Game Worked
     //Currency Is Now A Removed Feature
     if (debugvar == 5) {
       if (keyWentDown("c")) {
-        playSound("assets/category_achievements/bubbly_game_achievement_sound.mp3", false);
+        if(isMuted == 0){
+          playSound("assets/category_achievements/bubbly_game_achievement_sound.mp3", false);
+        }
       }
-      //Ehehe Dont Worry About This Bit Right Here ._.
+      //Useless Variable
       if (keyWentDown("o")) {
         original = 1;
       }
@@ -2427,7 +2612,7 @@ function BackwardsCompatibleBuildv065() {
     //Sets Animation EVERY SINGLE FRAME
     menubutton.setAnimation("store_text");
     restartbutton.setAnimation("start_text");
-    //Checks For Some Useless Variable That Changes One Graphic
+    //Checks For That Useless Variable That Changes One Graphic
     if (original == 1) {
       titlechr.setAnimation("title_picture_ob");
     } else {
@@ -2454,7 +2639,7 @@ function BackwardsCompatibleBuildv065() {
     titlebackground.visible = 1;
     sunspr.visible = 0;
     controlsmenu.visible = 0;
-    //This Long A*s If Statement Detects If You Pushed Any Of The
+    //This Long If Statement Detects If You Pushed Any Of The
     //Buttons On Screen
     if (mousePressedOver(restartbutton)) {
       pausetimerset = 0;
@@ -2466,8 +2651,9 @@ function BackwardsCompatibleBuildv065() {
       if (mousePressedOver(menubutton)) {
         //Menu Button As Previously Mentioned Is The Store Button
         //Sets StartVar To 7 Which Leads To Store Menu
-        //SIDENOTE: Went back And Fixed The Bug With The
+        //Sidenote From Dev: Went back And Fixed The Bug With The
         //Store Opening Up After Pausing And Clicking Menu
+        //... I Already Told You This Though
         if(pausetimerset == 1){
           startvar = 7;
         }
@@ -2494,11 +2680,11 @@ function BackwardsCompatibleBuildv065() {
   //-----------------------------------------------------------
   //NEXT START VARIABLE
   //This Start Variable Is The Actual Game's Code
-  //Don't Ask Me Why This S**t Is Out Of Order Lol
+  //Don't Ask Me Why This Is Out Of Order Lol
   //-----------------------------------------------------------
   
   if (startvar == 1) {
-    //I... I Don't Even F**king Know Anymore
+    //I... I Don't Even Know Anymore
     //WHY
     //WHY DOES IT CHECK FOR A GAMEOVER HERE
     //AND WHY IS IT NOT CHECKING THE GAMEOVER VARIABLE
@@ -2531,11 +2717,14 @@ function BackwardsCompatibleBuildv065() {
       //Why Is This Entire Restart Thing Just Not In A Separate
       //Function?
       //Its Actually Just Here To Take Up Hundreds Of
-      //Extra Lines Of Code I Guess? Idfk
+      //Extra Lines Of Code I Guess? idk
       if (mousePressedOver(restartbutton)) {
         //Idk Why it Waits A Frame Before Restarting The Round...
         //Thats What This Does By The Way
         //Not Even Indented Properly
+        //Funny Thing Is, It Doesn't Even Wait A Frame With This Code
+        //Cause Its Broken
+        //So In The End This Is Completely Pointless
         pausetimer = pausetimer + 1;
         if (pausetimer >= 1) {
         pausebutton = 0;
@@ -2585,7 +2774,7 @@ function BackwardsCompatibleBuildv065() {
           }
       }
     }
-    //Same Stuff As Before but For The Pause Menu And
+    //Same Stuff As Before But For The Pause Menu And
     //Not The Gameover Screen
     if (pausebutton == 1) {
       menubutton.setAnimation("menu_text");
@@ -2634,6 +2823,7 @@ function BackwardsCompatibleBuildv065() {
             gameovertext.visible = 0;
             menubutton.visible = 0;
             restartbutton.visible = 0;
+            //(Still Not Indented Properly)
             if (debugvar == 5) {
               player.setAnimation("stick_still_re");
             } else {
@@ -2672,7 +2862,8 @@ function BackwardsCompatibleBuildv065() {
     player.collide(edge02);
     player.collide(edge03);
     //Old Unused Debug Restart Function
-    //Its Missing Loads Of S**t Needed To Restart The Game
+    //Its Missing Loads Of Stuff Needed To Restart The Game
+    //But Technically It Works I Guess
     if (keyWentDown("r") && pausebutton == 1) {
       if (debugvar == 5) {
         pausetimer = pausetimer + 1;
@@ -2712,8 +2903,8 @@ function BackwardsCompatibleBuildv065() {
         }
       }
     }
-    //This Part Of The Code Is Completely 100% USELESS!!!
-    //Get Rid Of It If You Want IDGAF
+    //This Part Of The Code Is COMPLETELY 100% USELESS!!!
+    //Get Rid Of It If You Want
     if (pausebutton == 1) {
       black_cloud02.velocityY = 0;
       black_cloud01.velocityY = 0;
@@ -2728,7 +2919,7 @@ function BackwardsCompatibleBuildv065() {
     //Calls To Function That Changes The Background
     background1();
     //These Next 2 Calls For Functions Are Used For Character Movement
-    //Its Separate Functions Cause F**k You, Thats Why 
+    //Its Separate Functions Cause... Idk I Felt Like It 3 Years Ago
     Characternonmovestate();
     Charactermovestate();
     //Calls To Function That Shows The Score
@@ -2906,7 +3097,7 @@ function BackwardsCompatibleBuildv065() {
   
   //-----------------------------------------------------------
   //NEXT START VARIABLE
-  //More Store Animation S**t
+  //More Store Animation Stuff??????
   //-----------------------------------------------------------
   
   if (startvar == 4) {
@@ -2979,7 +3170,7 @@ function BackwardsCompatibleBuildv065() {
     //First Part Of Controls Menu Animation
     if (controlmove == 0) {
       //...
-      //F**k You Younger Me
+      //I Hate You Younger Me
       if (titletext.rotation == -25) {
         titletextturn = 1;
       }
@@ -3036,6 +3227,7 @@ function BackwardsCompatibleBuildv065() {
     //Sidenote: Accidentally Fixed A Major
     //Bug With This Part Of The Animation
     //Just By Looking At How I Misspelled Something
+    //Yes I Know, I Big Stupid
     if (controlmove == 4) {
       controlsmenu.velocityX = controlsmenu.velocityX - 0.2;
       backbutton.velocityX = backbutton.velocityX + 0.2;
@@ -3066,11 +3258,11 @@ function BackwardsCompatibleBuildv065() {
     //('-')
     //Not Even Amused By This Anymore
     //Whats Actually Sad Though Is That This Code Was
-    //Written Recently At the Time Or Writing This
+    //Written Recently At the Time Of Writing This
     //And The Only Reason I Didnt Fix The Actual
     //Issue Of This Repeated In Every Startvar Is Cause
     //That Would Mean Reworking the Entire Menu And
-    //Im Way Too F**king Lazy For That
+    //Im Way Too Lazy For That
     background(rgb(100, 98, 255));
     //Displays Text That Asks If You Wanna Leave PE1 Mode
     textFont("Times_New_Roman");
@@ -3111,7 +3303,8 @@ function BackwardsCompatibleBuildv065() {
       restartbutton.y = 300;
       menubutton.x = 200;
       menubutton.y = 275;
-      controlsbutton.x = 322;
+      controlsbutton.x = 316;
+      controlsbutton.y = 220;
       restartbutton.setAnimation("restart_text");
       menubutton.setAnimation("menu_text");
       optionstoggle02.setAnimation("switch_off");
@@ -3148,10 +3341,9 @@ function BackwardsCompatibleBuildv065() {
     text("It Is Recommended You Press BackSpace To", 5, 200);
     text("Return To The Main Menu", 5, 215);
     text("Or, You Can Press Enter To Continue Anyways", 5, 245);
-    //Does This Visible S**t Again
+    //Does This Visible Stuff Again
     //Every
     //Single
-    //Goddamn
     //Frame
     titlebackground.visible = 0;
     titlechr.visible = 0;
@@ -3203,8 +3395,9 @@ function BackwardsCompatibleBuildv065() {
     text(black_cloud01.y, 0, 75);
     text(controlmove, 0, 105);
   }
+  //And Finally...
   //The Single Lonely DrawSprites Command...
-  //You Finally Made It
+  //You Made It
   drawSprites();
 }
 
@@ -3247,6 +3440,7 @@ function Moveallsprites() {
     }
     //... You Know I Don't Think This Part Of The
     //Code Does Anything Actually...
+    //Cause code.org Already Stops You When You Collide With It
     if (player.isTouching(platform01)) {
       player.velocityY = 0;
     }
@@ -3264,9 +3458,7 @@ function Moveallsprites() {
     //After They've Made It To The Bottom
     if (platform01.y >= 425) {
       if (original == 1) {
-        //Detects If It Should Use Ice Sprites
-        //And Also Uses That Useless Part Of
-        //The Code
+        //Uses That Useless Variable Again
         if (score >= 50) {
           platform01.setAnimation("platformoriginal_ice");
         } else {
@@ -3565,7 +3757,7 @@ function background1() {
 
 
 function Charactermovestate() {
-  //WHY THE F**K DOES IT CHECK THE VISIBILITY OF THIS AGAIN
+  //WHY DOES IT CHECK THE VISIBILITY OF THIS AGAIN
   //(Desk Banging Sounds)
   if (gameovertext.visible == 0) {
     //Idk Why Its Doing This Part Of The Code Again
@@ -3610,7 +3802,7 @@ function Charactermovestate() {
       }
       //For Both Left And Right, It Changes How Movement
       //Works When Ice Platforms Are Touched
-      //WARNING: THIS PART OF THE CODE SUCKS IF YOU CANT TELL
+      //WARNING: THIS PART OF THE CODE IS TERRIBLE IF YOU CANT TELL
       //Its Literally The Biggest If Statement Ive Ever Made
       if (keyDown("left")) {
         if (score >= 50 && player.isTouching(ice01)) {
@@ -3661,7 +3853,7 @@ function Charactermovestate() {
           }
         }
       }
-      //WTF IS THIS S**T
+      //WHAT IS THIS???!?!?!???!
       if (keyDown("right")) {
         if (score >= 50 && player.isTouching(ice01)) {
           if (keyDown("shift")) {
@@ -3717,6 +3909,7 @@ function Charactermovestate() {
       }
       //Uses Jump Animation For When 2 Keys Are
       //Pushed Down At Once
+      //This Is Just Bad
       if (keyDown("left")&&keyDown("space") ) {
         player.setAnimation("stick_jump2");
       }
@@ -3730,8 +3923,7 @@ function Charactermovestate() {
 
 
 function Characternonmovestate() {
-  //WHY IS THERE AN ENTIRE FUNCTION DEDICATED TO THIS
-  //I HATE THIS
+  //WHY IS THERE AN ENTIRE FUNCTION DEDICATED TO THIS?????????
   //Detects if Keys Arent Pushed Down Anymore
   //If Keys Are Released, It Stops Its Animation
   if (keyWentUp("down")) {
@@ -3828,15 +4020,15 @@ function Gameover() {
     gameovertext.visible = 1;
     game_over = 1;
   }
-  //NOPE, I DONT CARE ANYMORE. I GIVE UP
   //Sets Gameover Animation To Correct Position
+  //Based On The GAMEOVERTEXT VISIBILITY AGAIN?????????????????????
   if (gameovertext.visible == 1) {
     player.velocityY = 0;
     player.velocityX = 0;
     player.y = 100;
     player.x = 200;
   }
-  //HOLY S**T I ACTUALLY USED THE GAMEOVER VARIABLE FOR ONCE
+  //I ACTUALLY USED THE GAMEOVER VARIABLE THIS ONE TIME
   //Sets Gameover Animation To Player Sprite
   if (game_over == 1) {
     player.setAnimation("Stick_Gameover");
@@ -3845,7 +4037,7 @@ function Gameover() {
 
 
 function pausebuttonfunction() {
-  //NO F**KING WAY I DID IT AGAIN
+  //NO WAY I DID IT AGAIN
   //Runs Pause Menu
   //First, Makes Sure Gameover Variable Is 0
   if (game_over == 0) {
@@ -3894,7 +4086,6 @@ function pausebuttonfunction() {
 //---------------------------------------------------
 //END OF BAD CODE FOR PE1v67 MODE COMPATIBILITY
 //PLEASE DONT COME BACK
-//ITS NOT WORTH IT
 //---------------------------------------------------
 
 //Beyond This Point Is Compatibility Mode For 
@@ -4133,20 +4324,28 @@ function Touchstarv1() {
     if (arrowcounter2 == 7) {
       black_cloud02.y = 450;
       black_cloud01.y = 450;
-      playSound("assets/category_alerts/vibrant_game_correct_answer_hit.mp3", false);
+      if(isMuted == 0){
+        playSound("assets/category_alerts/vibrant_game_correct_answer_hit.mp3", false);
+      }
     } else {
       if (arrowcounter == 4) {
-        playSound("assets/category_bell/choose_background.mp3", false);
+        if(isMuted == 0){
+          playSound("assets/category_bell/choose_background.mp3", false);
+        }
         backgroundchanger = 0;
         arrowcounter = -1;
       } else {
         if (arrowcounter == 5) {
-        playSound("assets/category_bell/choose_background.mp3", false);
+        if(isMuted == 0){
+          playSound("assets/category_bell/choose_background.mp3", false);
+        }
         backgroundchanger = 0;
         arrowcounter = -1;
-      } else {
-        playSound("assets/category_alerts/airy_bell_notification.mp3", false);
-      }
+        } else {
+          if(isMuted == 0){
+            playSound("assets/category_alerts/airy_bell_notification.mp3", false);
+          }
+        }
       }
     }
     coin.y = -500;
